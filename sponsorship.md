@@ -2,9 +2,9 @@
 layout: home
 ---
 
-# Sponsoring the W3C Workshop on Manga, Comics, and Fixed Layout Publications
+# Sponsoring the W3C Workshop on Strong Authentication & Identity
 
-(Some general text on the Workshop T.B.D.)
+(Some general text on the Workshop TBD)
 {: .todo}
 
 For more details on the workshop, see the [W3C Workshop on Strong Authentication & Identity](index.html).
@@ -48,22 +48,19 @@ The deadline for becoming a sponsor are:
 * <span class="todo">Datum to be set</span> to have the name/logo of the sponsor recognized on the signage at the workshop
 * <span class="todo">Datum to be set</span> to sponsor the workshop without name/logo on the signage, but with the other benefits included
 
-_The sponsorship values are in Yens, they should be in $ or €, depending on the location_
-{: .todo}
-
-### Platinum Sponsorship: ¥750,000 (¥1,000,000 for non-Members)
+### Platinum Sponsorship: $TBD ($TBD for non-Members)
 {: #platinum}
 
 * Platinum sponsors are listed prominently as major sponsors of the workshop.
 * The sponsor name and logo are featured on all on-site signage and printed materials.
 
-### Gold Sponsorship: ¥525,000 (¥700,000 for non-Members)
+### Gold Sponsorship: $TBD ($TBD for non-Members)
 {: #gold}
 
 * Gold sponsors are listed as sponsors of the workshop.
 * The sponsor name and logo are included on all on-site signage and printed materials.
 
-### Silver Sponsorship: ¥300,000 (¥400,000 for non-Members)
+### Silver Sponsorship: $TBD ($TBD for non-Members)
 {: #gold}
 
 * Silver sponsors are listed as additional sponsors of the workshop.
