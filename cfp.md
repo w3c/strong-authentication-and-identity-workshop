@@ -10,8 +10,7 @@ layout: cfp
 
 ## What is the purpose of this workshop?
 
-<span class="todo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
-
+This workshop wil look to provide a vision and future work for how strong authentication and identity should work on the web. A successful vision will identify how to align and unify recent W3C specifications (WebAuthn, Verifiable Claims, Web Payments), much of the work that has been done in the W3C Credentials Community Group (DID, DIDAuth), as well as existing community standards such as Open ID Connect, SAML, etc.
 
 ## How can I attend?
 
@@ -25,18 +24,25 @@ As an alternative to the registration form, you are encouraged to submit a prese
 
 Our aim is to get a diversity of attendees from a variety of industries and communities, including:
 
-> * FIDO, WebAuthn, IFAA, and other strong authentication technologies
-> * Decentralized Identifiers (DIDs), Blockchain / Distributed Legers, Verifiable Claims, DIDAuth and other emerging identity technologies
-> * Open ID Connect (OIDC), OAuth, SAML, and other federation technologies
+> * Finance and payment industries
+> * Government services
+> * Online platforms and service providers
+> * <span class="todo">Others?</span>
 
 This workshop, as other W3C meetings, operates under its [Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc/).
 
 ## Which topics will be covered?
 {: #topics}
 
-<span class="todo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+Topics will include:
 
-Suggestions for further workshop topics? Submit a [pull request on GitHub](https://github.com/w3c/tokyo18-workshop) or email Ivan Herman <ivan@w3.org>.
+> * Strong Authentication: FIDO, WebAuthn, IFAA, DIDAuth
+> * Decentralized Identity (DID): Blockchain / Distributed Ledger Technologies, Verifiable Credentials
+> * Federation: Open ID Connect, SAML, DID
+> * Credentials: Verifiable Credentials, JWT, JSON-LD
+> * <span class="todo">Others?</span>
+
+Suggestions for further workshop topics? Submit a [pull request on GitHub](https://github.com/apowers313/strong-authentication-and-identity-workshop/pulls) or email Adam Powers <apowers@w3.org>.
 
 
 ## How can I suggest a presentation?

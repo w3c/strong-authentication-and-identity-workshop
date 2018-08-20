@@ -4,4 +4,4 @@ layout: home
 
 # What is the purpose of this workshop?
 
-<span class="todo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</spam>
+This workshop wil look to provide a vision and future work for how strong authentication and identity should work on the web. A successful vision will identify how to align and unify recent W3C specifications (WebAuthn, Verifiable Claims, Web Payments), much of the work that has been done in the W3C Credentials Community Group (DID, DIDAuth), as well as existing community standards such as Open ID Connect, SAML, etc.
