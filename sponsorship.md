@@ -7,7 +7,7 @@ layout: home
 (Some general text on the Workshop T.B.D.)
 {: .todo}
 
-For more details on the workshop, see the <span class="todo">[W3C Workshop on @@@@](index.html)</span>.
+For more details on the workshop, see the [W3C Workshop on Strong Authentication & Identity](index.html).
 
 ## Why Sponsor This Workshop?
 

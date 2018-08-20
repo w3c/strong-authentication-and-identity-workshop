@@ -4,8 +4,9 @@ layout: home
 
 # Workshop Schedule
 
-<span class="todo">Just a skeleton for now…</span>
+<span>This is a placeholder for now. This page will contain the schedule of the Workshop.</span>
 
+<!--
 ## First Day
 
 <table class="zebra todo">
@@ -39,3 +40,4 @@ layout: home
 
 
 ## Second Day
+-->
