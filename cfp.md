@@ -42,7 +42,7 @@ Topics will include:
 > * Credentials: Verifiable Credentials, JWT, JSON-LD
 > * <span class="todo">Others?</span>
 
-Suggestions for further workshop topics? Submit a [pull request on GitHub](https://github.com/apowers313/strong-authentication-and-identity-workshop/pulls) or email Adam Powers <apowers@w3.org>.
+Suggestions for further workshop topics? Submit a [pull request on GitHub](https://github.com/w3c/strong-authentication-and-identity-workshop/pulls) or email Adam Powers <apowers@w3.org>.
 
 
 ## How can I suggest a presentation?
