@@ -10,7 +10,7 @@ layout: cfp
 
 ## What is the purpose of this workshop?
 
-This workshop wil look to provide a vision and future work for how strong authentication and identity should work on the web. A successful vision will identify how to align and unify recent W3C specifications (WebAuthn, Verifiable Claims, Web Payments), much of the work that has been done in the W3C Credentials Community Group (DID, DIDAuth), as well as existing community standards such as Open ID Connect, SAML, etc.
+This workshop will look to provide an existing standards landscape, roadmap and potential future work for how strong identity and strong authentication should work on the web. A successful workshop will be how to align recent W3C specifications  (WebAuthn, Verifiable Claims, Web Payments) and work that is ongoing in the W3C Credentials Community Group (DID, DIDAuth) along with IETF and ISO, as well as other existing community standards such as Open ID Connect, Oauth, SAML, etc.
 
 ## How can I attend?
 
@@ -27,7 +27,6 @@ Our aim is to get a diversity of attendees from a variety of industries and comm
 > * Finance and payment industries
 > * Government services
 > * Online platforms and service providers
-> * <span class="todo">Others?</span>
 
 This workshop, as other W3C meetings, operates under its [Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc/).
 
@@ -36,11 +35,12 @@ This workshop, as other W3C meetings, operates under its [Code of Ethics and Pro
 
 Topics will include:
 
-> * Strong Authentication: FIDO, WebAuthn, IFAA, DIDAuth
+> * Strong Authentication: FIDO, WebAuthn, IFAA, DIDAuth, OpenID Connect
+> * Strong Identity: ISO 29003, Entity Attestation Token (EAT)
 > * Decentralized Identity (DID): Blockchain / Distributed Ledger Technologies, Verifiable Credentials
-> * Federation: Open ID Connect, SAML, DID
-> * Credentials: Verifiable Credentials, JWT, JSON-LD
-> * <span class="todo">Others?</span>
+> * Federation: OpenID Connect, SAML, DID
+> * Credentials: Verifiable Credentials, JWT, JSON-LD, Entity Attestation Token (EAT)
+> * Requirements: Ease of Use, Accessibility, Internationalization, Security, Privacy
 
 Suggestions for further workshop topics? Submit a [pull request on GitHub](https://github.com/w3c/strong-authentication-and-identity-workshop/pulls) or email Adam Powers <apowers@w3.org>.
 
