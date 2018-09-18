@@ -65,13 +65,14 @@ A good position statement should be a few paragraphs long and should include:
 
 ## Location
 
-The W3C Workshop will located at <span class="todo">TBD</span>
+The W3C Workshop will located at [Microsoft Building 27 in Redmond, WA](https://www.google.com/maps/place/Microsoft+Building+27/@47.6359932,-122.1303004,15z/data=!4m5!3m4!1s0x0:0x653491b168159bfa!8m2!3d47.6359932!4d-122.1303004)
 
 ### Venue
 {: .no_toc}
 
-Venue details
-{: .todo}
+Microsoft Building 27
+3009 157th Pl NE
+Redmond, WA 98052
 
 ## Program Committee
 
@@ -84,8 +85,10 @@ Venue details
 ### Committee Members
 {: .no_toc}
 
-* TBD
-{: .todo}
+* Manu Sporny, Digital Bazaar
+* Drummond Reed, Evernym
+* Christiaan Brand, Google
+* Tony Nadlin, Microsoft
 
 ## What is W3C?
 
