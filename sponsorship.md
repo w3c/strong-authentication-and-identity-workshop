@@ -44,22 +44,22 @@ The deadline for becoming a sponsor are:
 
 The deadline for becoming a sponsor are:
 
-* <span class="todo">Datum to be set</span> to have the name/logo of the sponsor recognized on the signage at the workshop
-* <span class="todo">Datum to be set</span> to sponsor the workshop without name/logo on the signage, but with the other benefits included
+* <strong>November 19th</strong> to have the name/logo of the sponsor recognized on the signage at the workshop
+* <strong>December 3rd</strong> to sponsor the workshop without name/logo on the signage, but with the other benefits included
 
-### Platinum Sponsorship: $TBD ($TBD for non-Members)
+### Platinum Sponsorship: $7,500 ($10,000 for non-Members)
 {: #platinum}
 
 * Platinum sponsors are listed prominently as major sponsors of the workshop.
 * The sponsor name and logo are featured on all on-site signage and printed materials.
 
-### Gold Sponsorship: $TBD ($TBD for non-Members)
+### Gold Sponsorship: $5,000 ($6,700 for non-Members)
 {: #gold}
 
 * Gold sponsors are listed as sponsors of the workshop.
 * The sponsor name and logo are included on all on-site signage and printed materials.
 
-### Silver Sponsorship: $TBD ($TBD for non-Members)
+### Silver Sponsorship: $3,000 ($4,000 for non-Members)
 {: #gold}
 
 * Silver sponsors are listed as additional sponsors of the workshop.
