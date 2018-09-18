@@ -18,7 +18,7 @@ Attendance is free for all invited participants and is open to the public, wheth
 
 If you wish to express interest in attending, please fill out the registration form (<span class="todo">[WBS](https://www.w3.org/2002/09/wbs/showwb) to be done</span>). We want to fill the room with people with practical experience of both Web and VR technologies.
 
-Because the venue can accommodate unfortunately only 100 attendees, you must receive an acceptance email in order to attend. Also, be sure to keep an eye on [these important dates](#dates).
+Because the venue can accommodate unfortunately only 70 attendees, you must receive an acceptance email in order to attend. Also, be sure to keep an eye on [these important dates](#dates). Registration will be first come, first served with position statements helping the Program Committee guide the acceptance of participants.
 
 As an alternative to the registration form, you are encouraged to submit a presentation topic in the form of a [position statement](#position-statements).
 
@@ -57,11 +57,12 @@ If you wish to present on a topic, you should submit a position statement (<span
 A good position statement should be a few paragraphs long and should include:
 
 * Your background in the main [topic areas](#topics) of the workshop.
-* Which topic you would like to lead discussion on.
 * Links to related supporting resources.
 * Any other topics you think the workshop should cover in order to be effective.
 * A focus on technical issues, not process or platform preference. We plan to talk about the what, not the how.
 * Position statements must be in English, preferably in HTML or plain-text format. You may include multiple topics, but we ask that each person submit only a single coherent position statement. The input provided at registration time (e.g., bio, goals, interests) will be published and linked to from this workshop page.
+
+Note that your position statement submission is not intended to be an academic or conference paper, but is instead intended to educate the Program Committee on your interests and qualifications.
 
 ## Location
 
@@ -86,9 +87,12 @@ Redmond, WA 98052
 {: .no_toc}
 
 * Manu Sporny, Digital Bazaar
+* Paul Grassi, Easy Dynamics
 * Drummond Reed, Evernym
 * Christiaan Brand, Google
+* Kaliya Young, Internet Identity Workshop
 * Tony Nadlin, Microsoft
+* JC Jones, Mozilla
 
 ## What is W3C?
 
