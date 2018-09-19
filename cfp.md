@@ -93,6 +93,7 @@ Redmond, WA 98052
 * Kaliya Young, Internet Identity Workshop
 * Tony Nadlin, Microsoft
 * JC Jones, Mozilla
+* Pindar Wong, VeriFi
 
 ## What is W3C?
 
