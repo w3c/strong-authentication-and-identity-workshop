@@ -8,13 +8,15 @@ This workshop will look to provide an existing standards landscape, roadmap and 
 
 For more details on the workshop, see the [W3C Workshop on Strong Authentication & Identity](index.html).
 
+Inquiries about sponsorship can be sent to Alan Bird at [abird@w3.org](mailto:abird@w3.org).
+
 ## Why Sponsor This Workshop?
 
 The cost to hold a workshop includes costs for venue (including setup and custodial costs), AV requirements (optionally including recording), catering (lunch and breaks), materials, travel and staffing, and other considerations.
 
 Most of the planning, coordination, agenda building, and writing outcome reports are done for no cost by W3C staff or volunteers. But without sponsorships, W3C cannot hold workshops.
 
-If you see value in discussing further improvement on publishing Mangas and Cartoons via digital publications, and believe it will help your business, sponsoring is the best way to ensure that this conversation happens, and that you are seen as a leader and a forward-looking enabler of the technical evolution of the Web.
+If you see value in discussing further improvement on improving identity and authentication, and believe it will help your business, sponsoring is the best way to ensure that this conversation happens, and that you are seen as a leader and a forward-looking enabler of the technical evolution of the Web.
 
 The more sponsorships we get, the better the amenities will be, including options like recording and transcription for spreading and preserving what was discussed, T-shirts for attendees, and better meals.
 
