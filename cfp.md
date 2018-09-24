@@ -91,7 +91,7 @@ Redmond, WA 98052
 * Drummond Reed, Evernym
 * Christiaan Brand, Google
 * Kaliya Young, Internet Identity Workshop
-* Tony Nadlin, Microsoft
+* Tony Nadalin, Microsoft
 * JC Jones, Mozilla
 * Pindar Wong, VeriFi
 
