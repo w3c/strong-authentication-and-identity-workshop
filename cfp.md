@@ -16,7 +16,7 @@ This workshop will look to provide an existing standards landscape, roadmap and 
 
 Attendance is free for all invited participants and is open to the public, whether or not W3C members.
 
-If you wish to express interest in attending, please fill out the registration form (<span class="todo">[WBS](https://www.w3.org/2002/09/wbs/showwb) to be done</span>). We want to fill the room with people with practical experience of both Web and VR technologies.
+If you wish to express interest in attending, please fill out the registration form (<span class="todo">[WBS](https://www.w3.org/2002/09/wbs/showwb) to be done</span>). We want to fill the room with people with practical experience with strong authentication and identity technologies.
 
 Because the venue can accommodate unfortunately only 70 attendees, you must receive an acceptance email in order to attend. Also, be sure to keep an eye on [these important dates](#dates). Registration will be first come, first served with position statements helping the Program Committee guide the acceptance of participants.
 
