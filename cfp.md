@@ -16,7 +16,7 @@ This workshop will look to provide an existing standards landscape, roadmap and 
 
 Attendance is free for all invited participants and is open to the public, whether or not W3C members.
 
-If you wish to express interest in attending, please fill out the application form (<span class="todo">[WBS](https://www.w3.org/2002/09/wbs/showwb) to be done</span>). We want to fill the room with people with practical experience with strong authentication and identity technologies.
+If you wish to express interest in attending, please fill out the [application form](https://www.w3.org/2002/09/wbs/1/authn-identity-ws-2018/). We want to fill the room with people with practical experience with strong authentication and identity technologies.
 
 Because the venue can accommodate unfortunately only 70 attendees, you must receive an acceptance email in order to attend. Also, be sure to keep an eye on [these important dates](#dates). Application will be first come, first served with position statements helping the Program Committee guide the acceptance of participants.
 
@@ -52,7 +52,7 @@ This is a workshop, not a conference, and any presentations will be short, with 
 
 In order to best facilitate informed discussion, we encourage attendees to read the accepted topics prior to attending the workshop.
 
-If you wish to present on a topic, you should submit a position statement (<span class="todo">[WBS](https://www.w3.org/2002/09/wbs/showwb) to be set up</span>) by the deadline (see [important dates](#dates)). Our program committee will review the input provided, and select the most relevant topics and perspectives.
+If you wish to present on a topic, you should submit a position statement by the deadline (see [important dates](#dates)). Our program committee will review the input provided, and select the most relevant topics and perspectives.
 
 A good position statement should be a few paragraphs long and should include:
 
