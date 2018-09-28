@@ -16,11 +16,11 @@ This workshop will look to provide an existing standards landscape, roadmap and 
 
 Attendance is free for all invited participants and is open to the public, whether or not W3C members.
 
-If you wish to express interest in attending, please fill out the registration form (<span class="todo">[WBS](https://www.w3.org/2002/09/wbs/showwb) to be done</span>). We want to fill the room with people with practical experience with strong authentication and identity technologies.
+If you wish to express interest in attending, please fill out the application form (<span class="todo">[WBS](https://www.w3.org/2002/09/wbs/showwb) to be done</span>). We want to fill the room with people with practical experience with strong authentication and identity technologies.
 
-Because the venue can accommodate unfortunately only 70 attendees, you must receive an acceptance email in order to attend. Also, be sure to keep an eye on [these important dates](#dates). Registration will be first come, first served with position statements helping the Program Committee guide the acceptance of participants.
+Because the venue can accommodate unfortunately only 70 attendees, you must receive an acceptance email in order to attend. Also, be sure to keep an eye on [these important dates](#dates). Application will be first come, first served with position statements helping the Program Committee guide the acceptance of participants.
 
-As an alternative to the registration form, you are encouraged to submit a presentation topic in the form of a [position statement](#position-statements).
+As an alternative to the application form, you are encouraged to submit a presentation topic in the form of a [position statement](#position-statements).
 
 Our aim is to get a diversity of attendees from a variety of industries and communities, including:
 
@@ -60,7 +60,7 @@ A good position statement should be a few paragraphs long and should include:
 * Links to related supporting resources.
 * Any other topics you think the workshop should cover in order to be effective.
 * A focus on technical issues, not process or platform preference. We plan to talk about the what, not the how.
-* Position statements must be in English, preferably in HTML or plain-text format. You may include multiple topics, but we ask that each person submit only a single coherent position statement. The input provided at registration time (e.g., bio, goals, interests) will be published and linked to from this workshop page.
+* Position statements must be in English, preferably in HTML or plain-text format. You may include multiple topics, but we ask that each person submit only a single coherent position statement. The input provided at application time (e.g., bio, goals, interests) will be published and linked to from this workshop page.
 
 Note that your position statement submission is not intended to be an academic or conference paper, but is instead intended to educate the Program Committee on your interests and qualifications.
 
