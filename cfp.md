@@ -38,7 +38,7 @@ Topics will include:
 > * Strong Authentication: FIDO, WebAuthn, IFAA, DIDAuth, OpenID Connect
 > * Strong Identity: ISO 29003, Entity Attestation Token (EAT)
 > * Decentralized Identity (DID): Blockchain / Distributed Ledger Technologies, Verifiable Credentials
-> * Federation: OpenID Connect, SAML, DID
+> * Federation: OpenID Connect, SAML, IndieAuth, DID
 > * Credentials: Verifiable Credentials, JWT, JSON-LD, Entity Attestation Token (EAT)
 > * Requirements: Ease of Use, Accessibility, Internationalization, Security, Privacy
 
