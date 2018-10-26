@@ -52,10 +52,10 @@ This is a workshop, not a conference, and any presentations will be short, with 
 
 In order to best facilitate informed discussion, we encourage attendees to read the accepted topics prior to attending the workshop.
 
-Please send position statements (HTML, text, or PDF preferred) to <a href="mailto:group-identity-ws-pc@w3.org">group-identity-ws-pc@w3.org</a>. 
-
 
 If you wish to present on a topic, you should submit a position statement by the deadline (see [important dates](#dates)). Our program committee will review the input provided, and select the most relevant topics and perspectives.
+
+Please send position statements (HTML, text, or PDF preferred) to <a href="mailto:group-identity-ws-pc@w3.org">group-identity-ws-pc@w3.org</a>. 
 
 A good position statement should be a few paragraphs long and should include:
 
