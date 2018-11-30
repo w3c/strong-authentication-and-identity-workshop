@@ -12,12 +12,12 @@ The workshop will be held in Microsoft Building 27, room 1810 - Olympic.  The ad
 Monday, December 10th	
 * 8:30 AM	Registration / Settling
 * 9:00 AM	Introductions, and procedural
-* 9:30 AM	Understanding Verifiable Credentials, Dan Burnett
-* 9:50 AM	Understanding DIDs, Kim Duffy
-* 10:10 AM	Understanding DID Auth, Markus Sabadello
+* 9:30 AM	Understanding Verifiable Credentials
+* 9:50 AM	Understanding DIDs
+* 10:10 AM	Understanding DID Auth
 * 10:30 AM	Break
-* 11:00 AM	Understanding WebAuth, CTAP, EAT, Authenticators, Tony Nadalin / Dirk Balfanz
-* 11:20 AM	Understanding JWT/CWT, OpenID, etc, John Bradley
+* 11:00 AM	Understanding WebAuth, CTAP, EAT, Authenticators
+* 11:20 AM	Understanding JWT/CWT, OpenID, etc.
 * 11:40 AM	Explanation of Breakout Sessions (Goals/Output)
 * 12:00 PM	Lunch
 * 1:30 PM	Breakout #1: Positions on Presented Technologies / Concerns / Potential Work Items
@@ -25,22 +25,22 @@ Monday, December 10th
 * 2:30 PM	Report Out to Entire Group on Concerns and Potential Work Items
 * 3:00 PM	Break
 * 3:30 PM	"Market Verticals - Understanding current and future problems
-   * Enterprise - Chuck Mortimore
-   * Government - Peter Watkins
-   * Healthcare - Allen Brown
-   * Supply Chain - Jim Masloski
-   * Finance - Judy Zhu
-   * Identity Management  - Sarah Squire"
+   * Enterprise
+   * Government
+   * Healthcare
+   * Supply Chain
+   * Legal
+   * Identity Management
 * 4:30 PM	 Wrap up / Agenda Bashing, Wendy Seltzer
 * 5:00 PM	Close
-	* Afterhours: Zeitgeist of concerns and potential work items, Program Committee
+* Afterhours: Zeitgeist of concerns and potential work items
 * 6:00 PM	Group Dinner
 	
 Tuesday, December 11th	
 * 9:00 AM	Procedural / Agenda Bashing
 * 9:30 AM	Dot voting: Concerns and Potential Work Items
 * 9:45 AM	Survey of Current Work / Unsolved Problems in Authentication and Identity
-* 10:15 AM	Avoiding mistakes and minefields, Jeff Hodges
+* 10:15 AM	Avoiding mistakes and minefields
 * 10:45 AM	Morning Break
 * 11:00 AM	Breakout #3: Work that needs to be incubated
 * 11:30 AM	Breakout #4: Work that is ready for a Working Group
