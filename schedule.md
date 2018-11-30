@@ -2,8 +2,12 @@
 layout: home
 ---
 
-# Workshop Schedule
 
+# Venue
+
+The workshop will be held in Microsoft Building 27, room 1810 - Olympic.  The address is 3009 157th Place NE, Redmond 98052, WA.  There is parking at buildings 26, 27 and 28.  Avoid commuter and reserved spaces; use either visitor spaces or any unmarked space.
+
+# Workshop Schedule
 
 Monday, December 10th	
 * 8:30 AM	Registration / Settling
