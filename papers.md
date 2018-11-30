@@ -10,6 +10,7 @@ layout: home
 * Bart de Water, Shopify
 * Brent Zundel, Evernym, Inc.
 * Chris Boscolo, lifeID Foundation
+* Chris Matichuk, Trust Science
 * Christopher Allen, Co-chair, W3C Credentials CG
 * Craig Spiezle, Agelight Advisory Group / US Postal Service
 * Dalys Sebastian, Aware, Inc
