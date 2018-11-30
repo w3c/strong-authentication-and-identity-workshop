@@ -69,22 +69,10 @@ Note that your position statement submission is not intended to be an academic o
 
 ## Location
 
-The W3C Workshop will located at [Microsoft Building 27 in Redmond, WA](https://www.google.com/maps/place/Microsoft+Building+27/@47.6359932,-122.1303004,15z/data=!4m5!3m4!1s0x0:0x653491b168159bfa!8m2!3d47.6359932!4d-122.1303004)
-
-### Venue
-{: .no_toc}
-
-Microsoft Building 27
-3009 157th Pl NE
+The workshop will be held at [Microsoft Building 27 in Redmond, WA](https://www.google.com/maps/place/Microsoft+Building+27/@47.6359932,-122.1303004,15z/data=!4m5!3m4!1s0x0:0x653491b168159bfa!8m2!3d47.6359932!4d-122.1303004).  The address is 3009 157th Pl NE,
 Redmond, WA 98052
 
 ## Program Committee
-
-### Chairs
-{: .no_toc}
-
-* TBD
-{: .todo}
 
 ### Committee Members
 {: .no_toc}
