@@ -49,9 +49,9 @@ The workshop will be held in Microsoft Building 27, room 1810 - Olympic.  The ad
 * 1:00 PM	Dot voting: Work for Incubation / Work for Working Groups
 * 1:30 PM	Entire Group: Discussion on warnings/objections on incubation / WGs
 * 2:00 PM	Afternoon Break
-* 2:15 PM	5 Year Roadmap: DIDs and VCs
-* 2:45 PM	5 Year Roadmap: Authenticators
-* 3:15 PM	5 Year Roadmap: Browser Identity
+* 2:15 PM	5 Year Roadmaps: DIDs, VCs, and Attestation
+* 2:45 PM	5 Year Roadmaps: Authenticators
+* 3:15 PM	Browsers' current activity in authentication and identity
 * 3:45 PM	W3C Next Steps / Wrap up / close
 * 4:00 PM	Finish
 
