@@ -9,7 +9,7 @@ The workshop will be held in Microsoft Building 27, room 1810 - Olympic.  The ad
 
 # Workshop Schedule
 
-Monday, December 10th	
+## Monday, December 10th	
 * 8:30 AM	Registration / Settling
 * 9:00 AM	Introductions, and procedural
 * 9:30 AM	Understanding Verifiable Credentials
@@ -25,23 +25,24 @@ Monday, December 10th
 * 2:30 PM	Report Out to Entire Group on Concerns and Potential Work Items
 * 3:00 PM	Break
 * 3:30 PM	"Market Verticals - Understanding current and future problems
-   * Enterprise
    * Government
    * Healthcare
    * Supply Chain
    * Legal
-   * Identity Management
+   * Once Upon a Time
 * 4:30 PM	 Wrap up / Agenda Bashing, Wendy Seltzer
 * 5:00 PM	Close
 * Afterhours: Zeitgeist of concerns and potential work items
 * 6:00 PM	Group Dinner
-	
-Tuesday, December 11th	
-* 9:00 AM	Procedural / Agenda Bashing
+
+
+## Tuesday, December 11th	
+* 9:00 AM	Procedural / Agenda Setting
 * 9:30 AM	Dot voting: Concerns and Potential Work Items
-* 9:45 AM	Survey of Current Work / Unsolved Problems in Authentication and Identity
+* 9:45 AM	Exploring Cultural and Economic Perspectives
 * 10:15 AM	Avoiding mistakes and minefields
-* 10:45 AM	Morning Break
+* 10:35 AM	Use Case: Over 21
+* 10:50 AM	Morning Break
 * 11:00 AM	Breakout #3: Work that needs to be incubated
 * 11:30 AM	Breakout #4: Work that is ready for a Working Group
 * 12:00 PM	Lunch
@@ -54,38 +55,4 @@ Tuesday, December 11th
 * 3:45 PM	W3C Next Steps / Wrap up / close
 * 4:00 PM	Finish
 
-<!--
-## First Day
 
-<table class="zebra todo">
-    <tr>
-        <th>9:00 - 10:30</th>
-        <td>
-            <p class="session-title">Session title</p>
-            <ol>
-                <li>First talk</li>
-                <li>Second talk</li>
-            </ol>
-        </td>
-    </tr>
-    <tr>
-        <th>10:30 - 11:00</th>
-        <td>
-            Coffee break
-        </td>
-    </tr>
-    <tr>
-        <th>11:00 - 12:30</th>
-        <td>
-            <p class="session-title">Session title</p>
-            <ol>
-                <li>First talk</li>
-                <li>Second talk</li>
-            </ol>
-        </td>
-    </tr>
-</table>
-
-
-## Second Day
--->
