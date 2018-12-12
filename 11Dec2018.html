@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+<html lang='en' xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for HTML5 for Linux version 5.2.0" />
+  <title>Strong Authentication and Identity, day 2 -- 11 Dec
+  2018</title>
+  <link type="text/css" rel="STYLESHEET" href=
+  "https://www.w3.org/StyleSheets/base.css" />
+  <link type="text/css" rel="STYLESHEET" href=
+  "https://www.w3.org/StyleSheets/public.css" />
+  <link type="text/css" rel="STYLESHEET" href=
+  "https://www.w3.org/2004/02/minutes-style.css" />
+  <meta content="Strong Authentication and Identity, day 2" name=
+  "Title" />
+  <meta charset="utf-8" />
+</head>
+<body>
+  <p><a href="http://www.w3.org/"><img src=
+  "https://www.w3.org/Icons/w3c_home" alt="W3C" border="0" height=
+  "48" width="72" /></a></p>
+  <h1>- DRAFT -</h1>
+  <h1>Strong Authentication and Identity, day 2</h1>
+  <h2>11 Dec 2018</h2>
+  <p><a href=
+  'https://www.w3.org/Security/strong-authentication-and-identity-workshop/schedule.html#tuesday-december-11th'>
+  Agenda</a></p>
+  <h2><a name="attendees" id="attendees">Attendees</a></h2>
+  <div class="intro">
+    <dl>
+      <dt>Present</dt>
+      <dd>jfontana, JoeAndrieu, burn, Brent_Zundel, ChristopherA,
+      kimhd, weiler, hober, aaronpk, achughes, Karen, Shigeya,
+      Suzuki</dd>
+      <dt>Regrets</dt>
+      <dd></dd>
+      <dt>Chair</dt>
+      <dd>Wendy_Seltzer</dd>
+      <dt>Scribe</dt>
+      <dd>manu</dd>
+    </dl>
+  </div>
+  <h2>Contents</h2>
+  <ul>
+    <li>
+      <a href="#agenda">Topics</a>
+      <ol>
+        <li>
+          <a href="#item01">Introduction, Day 2</a>
+        </li>
+        <li>
+          <a href="#item02">Dot Voting on concerns and potential
+          work items.</a>
+        </li>
+        <li>
+          <a href="#item03">Current Situation of Japanese
+          Fragmented ID Platforms</a>
+        </li>
+        <li>
+          <a href="#item04">Automatic Identification Standards</a>
+        </li>
+        <li>
+          <a href="#item05">Laws and Borders: Self-Administered
+          Identifiers and NextPats</a>
+        </li>
+        <li>
+          <a href="#item06">Trusted ID</a>
+        </li>
+        <li>
+          <a href="#item07">Avoiding Mistakes and Minefields</a>
+        </li>
+        <li>
+          <a href="#item08">Seeking Clarity (around DIDs and other
+          breakout items)</a>
+        </li>
+        <li>
+          <a href="#item09">5 Year Roadmap: Authenticators</a>
+        </li>
+        <li>
+          <a href="#item10">Final Remarks and Breakouts</a>
+        </li>
+      </ol>
+    </li>
+    <li>
+      <a href="#ActionSummary">Summary of Action Items</a>
+    </li>
+    <li>
+      <a href="#ResolutionSummary">Summary of Resolutions</a>
+    </li>
+  </ul>
+  <hr />
+  <div class="meeting">
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; Slides compendium:
+    <a href=
+    "https://drive.google.com/open?id=1vnlhkrLUe7yap6g7-cBvkQIHL_NphUr7">
+    https://drive.google.com/open?id=1vnlhkrLUe7yap6g7-cBvkQIHL_NphUr7</a></p>
+    <h3 id="item01">Introduction, Day 2</h3>
+    <p class='irc'>&lt;<cite>scribe</cite>&gt; scribe: manu</p>
+    <p class='phone'><cite>wseltzer:</cite> Welcome back everyone,
+    we're tracking all input, we're going to start our day 2 of the
+    workshop.<br />
+    ... We have taken cards from yesterday into
+    questions/statements and we're going to do dot voting on
+    those... Kaliya will explain what we're doing next.<br />
+    ... Great agenda of additional talks/breakouts - exploring
+    cultural perspectives, avoiding mistakes/minefields, breakouts
+    discussing ideas, one of our goals it to help W3C figure out
+    what we should do next.<br />
+    ... That might be community groups, to incubate work, it might
+    be working groups to standardize work, it might be work to be
+    sent to other organizations, or input to other W3C WGs.<br />
+    ... A key takeaway here becomes the next directions of what
+    we'd like to collectively do next with all of this input.<br />
+    ... Lots of place for discussion in the roadmap, where we see
+    the future and how to get there. We wrap up at 4pm today so
+    folks can catch flights.<br />
+    ... I heard lots of great ideas and still lots of tension,
+    concerns from folks focused on authentication that the identity
+    isn't necessarily tied into authentication, concerns on
+    identifiers (work being characterized wrongly, misunderstood) -
+    if we're not looking at the right use cases, people come to
+    different conclusions. We have time to work out differences in
+    understanding, where is the agreement on the components of the
+    stack?<br />
+    ... One outcome could be that we're trying to solve different
+    problems, perhaps the technologies can coexist... we can offer
+    insights to one another even if we're not working on the same
+    piece of the problem.<br />
+    ... If we have issues with things others are working on - let's
+    focus on constructive criticism, how can we all help to make
+    the Web work better by building the right components around
+    authentication and identity.</p>
+    <h3 id="item02">Dot Voting on concerns and potential work
+    items.</h3>
+    <p class='phone'><cite>Kaliya:</cite> We took output from
+    conversation yesterday and crystalized them into some
+    statements and put them on these forms.<br />
+    ... This is what the form looks like -- <a href=
+    "https://mit.webex.com/wbxmjs/joinservice/mtg/4e2f2c8c6aa2499fa4ff57e9e961581e?siteurl=mit&amp;token=QUhTSwAAAARf3CNiSOA6s0HZ3erSbDBOP66rOlYCkn5W7aVxIveavX38e6v4v69VBCfgpENyvFVQSicO77PRbxUj8ULyazR0saTn9WaL%2BsFLlct6mYbYIKS2tGVk%2B0dpO%2FVA%2FxN5OlqHo05BvR1oGcR9ZJ%2BV9FpYjl96PBCjjqgN%2FXFT8bt4df2qFGns%2FHVmEwxreObvVxc%3D&amp;userName=Manu%20Sporny&amp;userEmail=msporny%40digitalbazaar.com&amp;CSRF=9e99ffe4-85ca-46c2-bd28-17a6b6b8ee10&amp;t">
+    https://mit.webex.com/wbxmjs/joinservice/mtg/4e2f2c8c6aa2499fa4ff57e9e961581e?siteurl=mit&amp;token=QUhTSwAAAARf3CNiSOA6s0HZ3erSbDBOP66rOlYCkn5W7aVxIveavX38e6v4v69VBCfgpENyvFVQSicO77PRbxUj8ULyazR0saTn9WaL%2BsFLlct6mYbYIKS2tGVk%2B0dpO%2FVA%2FxN5OlqHo05BvR1oGcR9ZJ%2BV9FpYjl96PBCjjqgN%2FXFT8bt4df2qFGns%2FHVmEwxreObvVxc%3D&amp;userName=Manu%20Sporny&amp;userEmail=msporny%40digitalbazaar.com&amp;CSRF=9e99ffe4-85ca-46c2-bd28-17a6b6b8ee10&amp;t</a></p>
+    <p class='phone'>
+    ouch=1544547439705&amp;pgvDone=1544547439706&amp;joinmethod=thinclientjoin&amp;endurl=<a href="https://mit.webex.com/webappng/sites/mit/dashboard">https://mit.webex.com/webappng/sites/mit/dashboard</a></p>
+    <p class='phone'><cite>Kaliya:</cite> Write your initials and
+    then put a dot -- one dot only -- agree or disagree, add
+    comments, and signatures - do not vote twice.</p>
+    <p class='phone'><cite>achughes:</cite> Do we vote on all
+    cards?</p>
+    <p class='phone'><cite>Kaliya:</cite> Please vote on each card,
+    we need to gather input - even if it's "I'm confused."<br />
+    ... Go around and vote - right now.</p>
+    <p class='phone'>Scribe notes 55 people in the room doing the
+    dot voting.</p>
+    <p class='phone'>Scribe notes lots of discussion around
+    voting/input.</p>
+    <p class='phone'><cite>wseltzer:</cite> Ok, thanks for the
+    input on the proposals... the Program Committee is going to
+    take a look at the feedback and try to synthesize items moving
+    forward.<br />
+    ... Next up are presentations on Cultural and Economic
+    Perspectives... followed by avoiding mistakes/minefields
+    discussion.</p>
+    <h3 id="item03">Current Situation of Japanese Fragmented ID
+    Platforms</h3>
+    <p class='phone'>Slides -- <a href=
+    "https://docs.google.com/presentation/d/1hhcDys1nrHtBeAX89RQiWvYWB4bwojVOKH0aIaPXaIM/edit">
+    https://docs.google.com/presentation/d/1hhcDys1nrHtBeAX89RQiWvYWB4bwojVOKH0aIaPXaIM/edit</a></p>
+    <p class='phone'><cite>Takashi:</cite> Hi, Takashi from JCB --
+    before starting presentation, just noting that I am not a
+    native English speaker.</p>
+    <p class='phone'>Slide 2</p>
+    <p class='phone'>Slide 4</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; slide 5</p>
+    <p class='phone'><cite>Takashi:</cite> In ecommerce - in B2C -
+    Amazong is close to Rakuten.<br />
+    ... There are a number of fragmented identity platforms iN
+    Japan.<br />
+    ... Also, differnet payment methods.</p>
+    <p class='phone'>slide 7</p>
+    <p class='phone'><cite>Takashi:</cite> Big Japanese companies
+    have siloed solutions - six big companies - user has to know
+    timetable... but just redirects to companies website.<br />
+    ... Driving license has a dominant position in Japan... as an
+    identity mechanism.</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; slide 9</p>
+    <p class='phone'><cite>Takashi:</cite> Japanese government want
+    to expand usage of "My Number" card for Japanese Social ID
+    System... but most Japanese people don't use this card - only
+    10%.<br />
+    ... We have a strong need for loose ID federation in Japanese
+    Market...</p>
+    <p class='phone'>Slide 10</p>
+    <p class='phone'><cite>Takashi:</cite> Large companies seem to
+    want to take a dominant position on Social ID...<br />
+    ... Governments seem to want Drivers license style
+    approaches.<br />
+    ... To achieve this, we need a scheme for DIDs and Self
+    Sovereign identity especially consent management.<br />
+    ... Thank you for your attention.</p>
+    <p class='phone'><cite>MikeJones:</cite> Mike Jones from
+    Microsoft, I know that Yahoo Japan and KDDI implement OpenID
+    Connect. Are they using that to interoperably login at other
+    Japanese sites, or is it mostly silos even though they are
+    using that federation protocol?</p>
+    <p class='phone'><cite>Takashi:</cite> Interop is not so great,
+    in Japan, every company uses Social ID using Yahoo, ??,
+    Facebook, and NTTDoCoMo...</p>
+    <h3 id="item04">Automatic Identification Standards</h3>
+    <p class='phone'>Slides -- <a href=
+    "https://docs.google.com/presentation/d/1hhcDys1nrHtBeAX89RQiWvYWB4bwojVOKH0aIaPXaIM/edit#slide=id.g49d4bd67a0_3_65">
+    https://docs.google.com/presentation/d/1hhcDys1nrHtBeAX89RQiWvYWB4bwojVOKH0aIaPXaIM/edit#slide=id.g49d4bd67a0_3_65</a></p>
+    <p class='phone'><cite>shigeya:</cite> Let me talk about
+    structured IDs, little different from user identity</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; [presentation
+    starts at slide 13]</p>
+    <p class='phone'><cite>shigeya:</cite> you know about bar codes
+    (slide: bag of mints -- comes from GS1)<br />
+    ... GS1 - they do the UPC - GS1 has a database...<br />
+    ... GS1 standards - identify, capture, and share - slide 16</p>
+    <p class='phone'>Slide 16</p>
+    <p class='phone'><cite>shigeya:</cite> There are multiple
+    formats to identify, capture, and share... barcode is only one
+    of them, can be expressed in URLs.<br />
+    ... GS1 has identification keys - domains... trade items
+    (GTIN), logistics (SSCC), Assets (GIAI), and locations
+    (GLNs)<br />
+    ... Companies assign GLNs to locatins like factories...
+    examples of GS1 identifiers.<br />
+    ... These are all expressible as URNs... urn:epc:id:...<br />
+    ... These are not DIDs, but they kind of look the same,
+    different domain.<br />
+    ... There are also physical representations - barcodes, RFID,
+    there are different formats/syntaxes.<br />
+    ... So let's look at applications... GS1 Lightweight Messaging
+    Standard for Verification... RESTful interface to resolve GS1
+    IDs... use case - US Drug Supply Chain.<br />
+    ... We're interested in using Verifiable Credentials for
+    this.</p>
+    <p class='phone'>Slide 21</p>
+    <p class='phone'><cite>shigeya:</cite> Here are some
+    difficulties with resolution services - Object Naming System...
+    DNS based pat of GS1 key to server mapping... not used other
+    than for research purposes.<br />
+    ... GS1 Discovery Services - centrlaized - map keys to servers,
+    suspended until well-defined demands from industry.<br />
+    ... but lately, there is renewed interest in mapping between
+    identifiers and associated data, together with verification of
+    identifiers.<br />
+    ... GS1 is the standard on product and business entity
+    identification,DID focuses on digital identity, we need a
+    cyber-physical link other than humans.<br />
+    ... DIDs could be used in the "id" fields in DID related
+    standards.<br />
+    ... There is a good intersection between DIDs and GS1 work.</p>
+    <p class='phone'><cite>Pam:</cite> You talked about resolution
+    and mapping - are those different things in your taxonomy?</p>
+    <p class='phone'><cite>shigeya:</cite> Mapping and discovery is
+    ... different.<br />
+    ... RFID is ... RFID leaks information... but information
+    record is somewhere else, stored on the server, that
+    information may be on a single server or multiple servers...
+    discovery service integrates all these data flows together.</p>
+    <h3 id="item05">Laws and Borders: Self-Administered Identifiers
+    and NextPats</h3>
+    <p class='phone'>Slides -- <a href=
+    "https://docs.google.com/presentation/d/1f9BW7lFdqcMZsZ08V1Mm0PV9J3aNC28q0JGRzgNneNE/edit">
+    https://docs.google.com/presentation/d/1f9BW7lFdqcMZsZ08V1Mm0PV9J3aNC28q0JGRzgNneNE/edit</a></p>
+    <p class='phone'><cite>Pindar:</cite> What can this technology
+    do to make things faster, safer, cheaper... what can it not
+    do?</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; <a href=
+    "https://docs.google.com/presentation/d/1f9BW7lFdqcMZsZ08V1Mm0PV9J3aNC28q0JGRzgNneNE/edit?usp=sharing">
+    Pindar's slides</a></p>
+    <p class='phone'><cite>Pindar:</cite> What about NETizen
+    eXpatriates -- people that want to transact across borders.</p>
+    <p class='phone'>Slide 2</p>
+    <p class='phone'><cite>Pindar:</cite> There are more people on
+    this circle than the rest of the planet... lots of people<br />
+    ... 50 billion machines coming down the pipeline.<br />
+    ... The Right to Work Online -- cannot be done w/o this
+    technologies...<br />
+    ... I work w/ displaced people - there are more people
+    displaced today than after WW2... 70M</p>
+    <p class='phone'>Slide 3</p>
+    <p class='phone'><cite>Pindar:</cite> These people are away
+    from their home countries... global climate change makes it
+    worse... legal certainty - do they have it... these people are
+    going to grow to 700M in the future<br />
+    ... There is a potential billion person market here covering
+    ... what about the lawful approach (there are non-lawful
+    approaches to solve these problems)</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; "We're all
+    migrants, we just don't know it yet"</p>
+    <p class='phone'><cite>Pindar:</cite> Examples of this, after
+    WWI, if your country no longer existed, passports doesn't work.
+    How can we create a "Right to Work Online"? It's not a
+    Sovereign view, it's not about borders, it's about
+    topology.<br />
+    ... How many people are in My Number? 10% of Japan.<br />
+    ... Aadhaar is over 1 billion users... great stats, interesting
+    ruling on constitutionality.<br />
+    ... Aadhaar has issues, but it's deployed.<br />
+    ... 50B devices online - we need to be concerned about
+    scale.<br />
+    ... There are other mechanisms in China - Social Credit System,
+    Real Name Electronic ID, Fintech, Common CLOUD.... identities
+    issued by governments to citizens.<br />
+    ... There is the Belt and Road Initiative - when you cross
+    borders, law is defined by borders - when you cross 65-68 legal
+    jurisdiction... Hong Kong is looking at digital roots.<br />
+    ... We have 3-5 times more internet capacity into Hong Kong
+    than all of China combined - how is this leveraged?<br />
+    ... What is the competitive landscale, market structure,
+    business models... what are the fundamental tensions between
+    geography and topology?<br />
+    ... We are mixing fire and ice - government issued - year
+    1648... in Hong Kong year 2047 -- self administered<br />
+    ... No nation below mathematics... physical border in
+    borderless world... self-administered IDs...<br />
+    ... Here's the belt and road blockchain - only deals w/
+    corporate identifiers, legal in switzerland, identifier system
+    for corporates, self administered IDs, the most important thing
+    is Self-Administered IDs, why do you need them?<br />
+    ... Companies don't have a right to anonymity - they have to be
+    registered, they have to pay tax.<br />
+    ... We need a golden source of data, we need to know where law
+    applies, that's one of the things that Hong Kong is famous
+    for...<br />
+    ... As a technical community - consistency - Hong Kong - golden
+    copies, grounded by government institutions, use it, assign
+    copies of data, have less legal responsibility and
+    liability.<br />
+    ... to scale cloud services, need identifiers system to allow
+    different cloud systems to scale.<br />
+    ... This is why we call them Self-Administered Identifiers -
+    corporates/individuals... Sovrerign states - Fire... dynamic
+    violence.<br />
+    ... in our Internet view - borderless... ice...
+    cryptographically strong static violence...<br />
+    ... We need to understand consent - freeze, not move -
+    different property that does not require rule of law -<br />
+    ... legal certainty - many of us that do contracts don't see
+    the light of day - computing engine of court system - interpret
+    run legal code... computational code - cryptographic
+    consistency - we can have a different type of discussion.</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; [slide 16]</p>
+    <p class='phone'><cite>Pindar:</cite> Fundamental assumptions -
+    distance != cost, centralized != trusted, time != money<br />
+    ... What are assumptions implicit in our discussions... -
+    digital trade and digital work online is different.</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; [slide 18]</p>
+    <p class='phone'><cite>Pindar:</cite> We've had Cyber Monday /
+    Black Friday - different by an order of magnitude.<br />
+    ... Singles day is way bigger.</p>
+    <h3 id="item06">Trusted ID</h3>
+    <p class='phone'><cite>Tom:</cite> We've been doing work in
+    Kantara - a Trusted Identity</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; <a href=
+    "https://docs.google.com/document/d/1taCE6I8tcx5zLQ9PYcDfk6ThB3WlcISIMBfIhKKC_Bg/edit">
+    Tom Jones and Mary Hodder's slides</a></p>
+    <p class='phone'><cite>Tom:</cite> What you see when you look
+    at this, Authentication of a User has to be different ...
+    Decentralized Identity on steroids - pieces of identity are
+    spread throughout space.<br />
+    ... How to bring things back together again... talks to strong
+    enough idea that we're trying to present to this group.<br />
+    ... Authentication and Authorization - separate and needs to
+    stay separate.<br />
+    ... WebAuthn comes up more like Authorization...<br />
+    ... The idea is that in this use case, pretty high assurance
+    that someone is over 21 if they need to buy some alcohol or
+    some other restricted element online.<br />
+    ... We're going to talk about these 4 actors - consumer that
+    wants restricted resource, supplier that has resource, verifier
+    of claim of majority (sort of like Verifiable Credentials
+    meaning), this verifier can validate binding between user and
+    claim.<br />
+    ... I'll try to use validate when I say that and verified when
+    I say verified claim.<br />
+    ... What about the right of a regulator agency?<br />
+    ... One of the most interesting cases is DEA position on
+    drugs...</p>
+    <p class='phone'>@@@: When you say regulatory agency, do you
+    mean provider of claim?</p>
+    <p class='phone'><cite>JohnB:</cite> What requirements are
+    there?</p>
+    <p class='phone'><cite>MaryHodder:</cite> For state of
+    California, board of brewery, had to do a deep identity
+    verification for brewing... tap room, physical location, sell
+    things through website and people can come in and pick up...
+    brewing operations, they spot check, they don't look at our
+    records for every single sale.<br />
+    ... Often people flash a license... employees ar edoing that
+    check, there is no recording except through website
+    purchases... no one is even providing this.<br />
+    ... They are literally clicking a button, which is not good,
+    flashing license... but there is no real recording/requirement
+    that feds and state of california require for alcohol
+    purchases.</p>
+    <p class='phone'><cite>Tom:</cite> If you are buying alcohol,
+    you can have different requirements for different types of
+    purchases.<br />
+    ... The specific rules differ by state - online use case, they
+    will try to find rules that will work for all states.<br />
+    ... Last part - provider of late binding tokens and client-side
+    code.<br />
+    ... Smart card, TPM, etc. precondition is that you have a
+    consumer that has a late binding token that has it, they have
+    an over 21 claim, and finally they have a consumer that already
+    established an ID with some supplier.<br />
+    ... They are already online... that's where we are ... two
+    different use cases to look at this - supplier sends request
+    through user asking for a claim... user has a claim... user
+    sends it back.<br />
+    ... It's not verified - typically, supplier ... use late
+    binding token to be attached to claim, late binding token is
+    attached.<br />
+    ... If you are an OpenID person, this is just front-channel
+    authentication... at this point, we have provided a service to
+    supplier, we expect supplier to receive validated claim.<br />
+    ... This is small, 5-10 cents - standard practice - fraud
+    detection circuit.<br />
+    ... Second scenario, something that looks like a back channel -
+    consumer himself has to go and get validated claim.<br />
+    ... Gets validation, gets claim, supplier gets it.<br />
+    ... This is traditional advertising model... bound to
+    session.<br />
+    ... Fail paths - fairly obvious, user doesn't get verified, or
+    fails validation at supplier<br />
+    ... The real point is that the user gets to decide what
+    attributes he sends based on what he's doing at the current
+    moment.<br />
+    ... Examples of what could be used, client side code<br />
+    ... users shouldn't expose stuff to websites ... so we need a
+    way for websites to identify themselves... trust federations
+    apply to what we're talking about... alcohol... drugs,
+    different rules, different conditions.</p>
+    <p class='phone'><cite>ChristopherA:</cite> The VC and DID
+    community has been using the "Over 21" story over the last
+    couple of years.<br />
+    ... There are major differences in some places - for example
+    item 6 - we're not trusting that the user makes the choice, the
+    absolute minimum inormation should be given.<br />
+    ... Data Minimization story there.<br />
+    ... There is a separate selective disclosure story - there
+    shouldn't be a backchannel where the bar can correlate
+    information.<br />
+    ... This is in our whitepaper on data minimization an
+    dselective disclosure and how they're different... in the VC
+    group, and DID group, we've decided to drop this story... over
+    21 is too complicated, doesn't always apply, it's problematic.
+    We've gone to university alumni and university degree.</p>
+    <p class='phone'><cite>Tom:</cite> I understand that this is a
+    broader scope - take the claim, moves to higher plain,</p>
+    <p class='phone'><cite>ChristopherA:</cite> We would be happy
+    to share with you on this stuff.</p>
+    <p class='phone'><cite>wseltzer:</cite> Thank you very much Tom
+    and Mary!</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; [15 min break]</p>
+    <h3 id="item07">Avoiding Mistakes and Minefields</h3>
+    <p class='irc'>&lt;<cite>weiler</cite>&gt; scribenick:
+    weiler</p>
+    <p class='phone'>\/</p>
+    <p class='phone'><cite>jeffh:</cite> I want to throw out ideas
+    and be provocative.</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; <a href=
+    "https://docs.google.com/presentation/d/1hjJAsv6mVYxKe1IeUjWB4rLDUbjbdNJlvt9ktcCxl68/edit?usp=sharing">
+    JeffH's slides</a></p>
+    <p class='phone'>[protocol &amp; system design time]</p>
+    <p class='phone'><cite>scribe:</cite> need to carefully define
+    terminology and use it consistently. WebAuthn spent much time
+    on this.<br />
+    ... best to fi this at design time.<br />
+    ... In directory days (95-96 ---&gt; 1998) "names" and
+    "identifiers" were often swapped.<br />
+    ... e.g. names are fungible and non-unique and identifiers are
+    unique and persistent.<br />
+    ... In implementing this ina RDMS, we threw out the X.500 idea
+    that DN's are real names. We jammed UUIDs in the DN for people
+    entries. and never revealed it.<br />
+    ... so when users entered a name in a form, we did not map that
+    to a DN and do the lookup - we did searches instead.<br />
+    ... The thing that made this work was that the UMich LDAP
+    implementation was fast.<br />
+    ... At COMPONENT implementation time...</p>
+    <p class='phone'>[cites "Most Dangerous Code in the World"]</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; <a href=
+    "https://crypto.stanford.edu/~dabo/pubs/abstracts/ssl-client-bugs.html">
+    https://crypto.stanford.edu/~dabo/pubs/abstracts/ssl-client-bugs.html</a></p>
+    <p class='phone'><cite>scribe:</cite> Much of this has been
+    fixed.<br />
+    ... at DEPLOYMENT time:<br />
+    ... are underlying techs secure (see above). need a carefully
+    designed deployment architecture.<br />
+    ... I asked advice from deployers of federated systems....</p>
+    <p class='phone'>[slide on Deployment Time]</p>
+    <p class='phone'><cite>scribe:</cite> Failing to check
+    results.<br />
+    ... Assuming that a 'principal name' is an email and not
+    checking it.<br />
+    ... eduPersonAffiliation don't mean the same thing at all
+    sites.<br />
+    ... different sites may have different rules; danger in
+    assuming commonality.<br />
+    ... other federation members may not follow BCP's.<br />
+    ... users get confused.<br />
+    ... Overall: trust does not scale (across arbitrary policy
+    domains)<br />
+    ... SP800-63-3 is an attempt to define these for USG agencies
+    and might be a model for how to have uniform policies across
+    relatively disparate orgs.<br />
+    ... Consider a simple design with simple use cases, expecting
+    it to evolve.<br />
+    ... Build something malleable. and that has utility.</p>
+    <p class='phone'>[slide: flexitility]</p>
+    <p class='phone'><cite>tony:</cite> you said 'take things
+    small' - there is a limit to how small you can go...</p>
+    <p class='phone'><cite>jeffh:</cite> do something useful.</p>
+    <p class='phone'><cite>tony:</cite> even small could be useful,
+    but has no context</p>
+    <p class='phone'><cite>jeffh:</cite> e.g. use U2F - doesn't get
+    rid of passwords. We learned a lot that we took into FIDO2,
+    where we're tryign to satisfy the passwordless case. that's an
+    example.</p>
+    <p class='phone'><cite>tony:</cite> what if we just defined the
+    message payload, no transports.</p>
+    <p class='phone'><cite>jeff:</cite> what do you do with that?
+    write an academic paper.<br />
+    ... I think you start with a basic use case</p>
+    <p class='phone'><cite>jim:</cite> re: reference to publication
+    (NIST) - is this something w3c buys into?</p>
+    <p class='phone'><cite>jeffh:</cite> in commercial world, it's
+    a good example to pay attn to .</p>
+    <p class='phone'><cite>dirk:</cite> i like the distinction in
+    phases. focusing on spec writing: any juicy examples of
+    terrible specs. and also good examples?</p>
+    <p class='phone'><cite>jeffh:</cite> OpenID1 is an example of
+    something we learned from. I compare it and SAML in a doc from
+    2008 - I characterize OpenID1 as a chunk of forged metal.<br />
+    ... you cannot profile it or change it around. It only works
+    one way.<br />
+    ... you learn from that. OAUTHv2, OIDC have many components -
+    they're more like molten metal. a Profile is a mold; you can
+    reshape them to do something new.</p>
+    <p class='phone'><cite>Dirk:</cite> OpenID1 was concevied by a
+    small set of people. do you need to have a larger group?</p>
+    <p class='phone'><cite>jeff:</cite> as you iterate, you bring
+    new use cases in. if you have something that can be extended
+    (is malleable) to fixe new use case, that's a good thing.<br />
+    ... you're unlikely to be able to satisfy all use cases.</p>
+    <p class='phone'>mike jones: I agree re: the centrality of
+    iteration as well as "do something small". build the smallest
+    deployable unit, so that you learn.</p>
+    <p class='phone'><cite>scribe:</cite> if you reach that kernel,
+    like open ID1, which morphed into 2, you learn things.<br />
+    ... most humans are not capable of entering idetifiers as URLs.
+    So you find email addresses, which people understand, despite
+    the downsides.<br />
+    ... I agree re: "have core fucntionaltiy" and have extension
+    points.</p>
+    <p class='phone'>e.g. encryption in @@</p>
+    <p class='phone'><cite>jeffh:</cite> identity federation based
+    on HTTP was invented in 10s -100s of different places<br />
+    ... at stanford, we invented one. In 1999 Burton group
+    consultant said "let's get into a room" to merge two competing
+    standards<br />
+    ... In hindsight, that became OASIS security services technical
+    committee. something else became OpenID1.<br />
+    ... then OpenID2.<br />
+    ... then OAUTH to authorize services to talk on a users'
+    behalf.<br />
+    ... then MS and Google came in with new use cases and that led
+    to OAUTH2</p>
+    <p class='phone'>[draws on paper]</p>
+    <p class='phone'><cite>scribe:</cite> early rat race, narrow
+    funnel. it's hard to get the planet to decide on one
+    design.<br />
+    ... Best example are automobile controls. that wasn't
+    standardized until 1920s.<br />
+    ... I remember a gas pedal in the middle. Right hand drive.</p>
+    <p class='irc'>&lt;<cite>Zakim</cite>&gt; burn, you wanted to
+    mention standards as process of attrition</p>
+    <p class='phone'>[ <a href=
+    "https://www.youtube.com/watch?v=MFzDaBzBlL0">https://www.youtube.com/watch?v=MFzDaBzBlL0</a>]</p>
+    <p class='phone'><cite>dan:</cite> standards is a process of
+    attrition. once you build something that is of value to the
+    group, it can be good to declare victory on that piece. at some
+    point you'll find that there aren't enough people to keep going
+    (for now).<br />
+    ... it's easy to overextend on requirements.<br />
+    ... when you don't have agreement.</p>
+    <p class='phone'><cite>Jeff:</cite> this is an argument for
+    modular design<br />
+    ... other example is LDAP. We aren't working on it any more,
+    but we all use it. It's sedimented. You only mess with them
+    when you need to. e.g. tuning of TCP.<br />
+    ... TCP works. Until you find issues, like buffer bloat.<br />
+    ... but things sediment down and you don't need to pay
+    attention.</p>
+    <h3 id="item08">Seeking Clarity (around DIDs and other breakout
+    items)</h3>
+    <p class='phone'>mike Jones: I reinforce your story re:
+    independent invention signifying time for a standard. When JWt
+    finished, there were four different</p>
+    <p class='phone'><cite>scribe:</cite> formats. we took that as
+    a sign that we should talk to each other.<br />
+    ... coming into the present day. there are a bunch of people
+    here working on DIDs and at RWOT there were people saying "I
+    built DIDs" and people<br />
+    ... were asking "how did you represent keys", what use cases
+    did you solve, etc.<br />
+    ... which showed they didn't have interop.<br />
+    ... if you want a DID thing that works, you need to make some
+    choices. Need one way to do X.<br />
+    ... if you want interop. engineerings in bldg 28 next door
+    looked at DIDs and wondered what to build. it's time to do
+    that.</p>
+    <p class='phone'>Kim Duffy: i apologize that at RWOT that
+    didn't come across</p>
+    <p class='phone'><cite>scribe:</cite> our pre-standards groups
+    have not done a great job communicating the use cases (like
+    educational credentials). We are actively working on that.
+    we're trying to clarify confusions.</p>
+    <p class='phone'><cite>christopher:</cite> there's a
+    distinction between DID itself and @2 and specifics of
+    indivudal methods. different<br />
+    ... companies have chosen different architectures, crypto,
+    curves.<br />
+    ... I heard "given the blockchain you're using, what did you
+    use?".<br />
+    ... another issue had to do with VC, not DIDs - format for
+    signing VCs.</p>
+    <p class='irc'>&lt;<cite>kimhd</cite>&gt; @weiler -- that's not
+    what I said</p>
+    <p class='irc'>&lt;<cite>kimhd</cite>&gt; I'll correct</p>
+    <p class='phone'><cite>christopher:</cite> there has not been
+    consensus because W3C limited scope of WG to data format
+    only.</p>
+    <p class='phone'><cite>mike:</cite> as an outsider, I think
+    it's time to make choices. I think you have to have algo
+    agility, but basic data structures need to be picked.</p>
+    <p class='phone'><cite>daniel:</cite> to be practical, I think
+    we need to specify how keys are declared. I think we can narrow
+    it down.<br />
+    ... that might be a place we can make progress.<br />
+    ... resolving them the same will never work.<br />
+    ... since they're constructed for different purposes.<br />
+    ... they don't resolve the same because they're serving
+    differernt purposes.</p>
+    <p class='phone'><cite>chris:</cite> @4 we are not ready to
+    accept that new academic research.</p>
+    <p class='phone'><cite>kim:</cite> the proposal for the DID WG
+    has only to do with data model and syntax. The cards were a
+    little misleading. the interop part we want to standardize is
+    the data model and syntax.</p>
+    <p class='irc'>&lt;<cite>kimhd</cite>&gt; ^ Correction</p>
+    <p class='phone'><cite>wendy:</cite> I'm hearing challenges re:
+    the right level of modularity. I heard @4. It needs to be big
+    enough to be useful. I'm hearing from VC WG frustration at
+    scope of charter.<br />
+    ... drawing the right boundaries where we're okay with a group
+    setting a scope - and thinking about other modules we need to
+    build. As we move to next phases of discussion, we have lots of
+    cards to work through.<br />
+    ... I want to do some breakout gardening.<br />
+    ... for our time after lunch.<br />
+    ... on the wall on the R, there are items where confusion has
+    been expressed. We could ask the room if there's confusion you
+    want us to address today.<br />
+    ... there are other places where we have general consensus. and
+    there are cards that show a deep division. would be great<br />
+    ... to address the source of that division. and questions re:
+    chartering of work.</p>
+    <p class='irc'>&lt;<cite>aaronpk</cite>&gt; scribenick:
+    aaronpk</p>
+    <p class='phone'><cite>chris:</cite> is it possible to go
+    parallel rather than sequential now?<br />
+    ... a bunch of ppl are leaving at 4, some sooner, there's a
+    bucnh of momentum around chartering a DID WG<br />
+    ... we'd like to address the objections<br />
+    ... so spending a lot of time on others is going to stop us
+    from coming to some closure on the DID WG charter</p>
+    <p class='phone'><cite>wendy:</cite> there is a lot of interest
+    in addressing the questions of the DID WG<br />
+    ... and i think we want to address the presentation of
+    that<br />
+    ... and some of the controversy that came up<br />
+    ... the co chaaikrs of the cg result from a confusion of what
+    they are proposing<br />
+    ... so it's only fair to let them share what they are proposing
+    if we're asking the group to give input on whether that's a
+    good direction<br />
+    ... .and i know manu is actively listening and participating
+    even though he cuoldn't join us was offering to share some of
+    his input<br />
+    ... on the roadmap that the DID proponents have for moving
+    their work forward<br />
+    ... unfortunately manu reports his audio can't connect</p>
+    <p class='irc'>&lt;<cite>kimhd</cite>&gt; it sounds fine</p>
+    <p class='phone'><cite>manu:</cite> so i can't hear what you're
+    saying at all</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; manu, can you
+    speak?</p>
+    <p class='phone'><cite>manu:</cite> i'm going to go ahead</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; manu++</p>
+    <p class='phone'><cite>manu:</cite> i wanted to clarify some of
+    the items around the DID WG proposal<br />
+    ... for those not aware, the work on DIDs has been happening
+    for about 3 years</p>
+    <p class='irc'>&lt;<cite>manu</cite>&gt; <a href=
+    "https://www.w3.org/community/credentials/participants">https://www.w3.org/community/credentials/participants</a></p>
+    <p class='phone'><cite>manu:</cite> in the group called the
+    credentials CG</p>
+    <p class='irc'>&lt;<cite>manu</cite>&gt; <a href=
+    "https://w3c-ccg.github.io/">https://w3c-ccg.github.io/</a></p>
+    <p class='irc'>&lt;<cite>manu</cite>&gt; <a href=
+    "https://w3c-ccg.github.io/did-wg-charter/">https://w3c-ccg.github.io/did-wg-charter/</a></p>
+    <p class='phone'><cite>manu:</cite> community is composed of
+    225+ people who meet weekly, calls each week are between 20-30
+    people joining, so healthy and active group, and run
+    experiements around verifiable credentials and things of that
+    nature<br />
+    ... about 8 months ago we put together a DID WG charter, highly
+    focused on data models specifically<br />
+    ... but as i mentioned, the CCG is front-running that work and
+    doing experiements around protocols and resolutiosn and the
+    open questions<br />
+    ... one of the things that became claer over the last year,
+    given we have 15 different DID methosd right now<br />
+    ... there's a desire to greate a W3C WG around the data model,
+    that's the small step that we believe is appropriate to take at
+    this point<br />
+    ... we did circulate a questionnaire about 4 months ago to the
+    W3C membership and a number of other large organiztaions</p>
+    <p class='irc'>&lt;<cite>manu</cite>&gt; Member confidential
+    slide deck on DID progress: <a href=
+    "https://docs.google.com/presentation/d/1iMH4m_3OQbnyTr-Vrhe2PRECbiWOMjeeym-oL2dyhC0/edit">
+    https://docs.google.com/presentation/d/1iMH4m_3OQbnyTr-Vrhe2PRECbiWOMjeeym-oL2dyhC0/edit</a></p>
+    <p class='phone'><cite>manu:</cite> this is a member
+    confidential slide deck on DID progress</p>
+    <p class='irc'>&lt;<cite>manu</cite>&gt; public one here:
+    <a href=
+    "https://docs.google.com/presentation/d/18cDpqkPhlGKcOlgnbt2_2PbFoNv0vryXopp5rIG8A0o/edit#slide=id.gc6f80d1ff_0_0">
+    https://docs.google.com/presentation/d/18cDpqkPhlGKcOlgnbt2_2PbFoNv0vryXopp5rIG8A0o/edit#slide=id.gc6f80d1ff_0_0</a></p>
+    <p class='phone'><cite>manu:</cite> there is a public one that
+    i'll also share here<br />
+    ... the outcome of this survey, we asked if the charter was
+    appropriate<br />
+    ... we got 80 responses, a large sample set<br />
+    ... of those 80, we asked how many of them would support and
+    join, not just support, a DID working group</p>
+    <p class='irc'>&lt;<cite>manu</cite>&gt; <a href=
+    "https://w3c-ccg.github.io/did-wg-charter/">https://w3c-ccg.github.io/did-wg-charter/</a></p>
+    <p class='phone'><cite>manu:</cite> that's scoped to the
+    charter we produced<br />
+    ... it is data model only. out of 80, 60 said they would join
+    the WG<br />
+    ... for those of you who are not familiar with the process,
+    that's well above what is needed to create a WG<br />
+    ... this is the primary thing that we're trying to accomplish
+    at the workshop<br />
+    ... to socialize that this charter is out there and has 60+ W3C
+    members in support of it<br />
+    ... and to socialize it</p>
+    <p class='irc'>&lt;<cite>Zakim</cite>&gt; wseltzer, you wanted
+    to discuss modularity and constraints, utility and to discuss
+    W3C process</p>
+    <p class='phone'><cite>manu:</cite> so it's not a done thing
+    but it's a socialized charter<br />
+    ... there are things not in the charter, we don't talke about
+    DID Auth, we don't talk about DID resolution<br />
+    ... we're trying to pick a small set of work, then after that
+    go on to the next step<br />
+    ... which could be resolution or auth<br />
+    ... i'm going to stop there</p>
+    <p class='phone'><cite>wendy:</cite> thanks manu</p>
+    <p class='irc'>&lt;<cite>ChristopherA</cite>&gt; Thanks
+    Manu!</p>
+    <p class='phone'><cite>wendy:</cite> regarding the w3c process,
+    the components are support, willingness to work, lack of formal
+    objections<br />
+    ... or all of the objections to the work have been addressed to
+    the satisfaction of the w3c director<br />
+    ... so a goal of socializing the work is to get support and
+    address the concerns that others might have<br />
+    ... so i like the suggestion of breakout and making this more
+    of a discussion, i'd love to find a way to have manu
+    participate in that discussion<br />
+    ... but figuring for those who are concerned about this work,
+    or don't think its the right direction, what would help you to
+    address those concerns, and what else do you need to hear<br />
+    ... if there's an understanding gap or what would need to
+    change</p>
+    <p class='phone'><cite>mike:</cite> mike jones microsoft. i
+    want to reflect on some of the excellent observations that jeff
+    made<br />
+    ... about the ability to iterate and standardize<br />
+    ... at least as the charter was just described by manu, it
+    describes a data structure but doesn't define how to do
+    resolution or authentication<br />
+    ... and thinking in terms of minimum deployable unit you need
+    to have all three of those things to have a functionining
+    DID<br />
+    ... so it seems counterproductive to define a data structure
+    without defiing how to deploy it in practice</p>
+    <p class='phone'><cite>kaliya:</cite> as a person who can't get
+    into the techinical weeds, one of the things i've continued to
+    hear is we have to scope it so narrowly that what you've said
+    is out of scope and causes problems<br />
+    ... so if we can figure out how to expand the scope to address
+    those things that seems like a path forward</p>
+    <p class='phone'><cite>tony:</cite> defining a data structure
+    is too small at this point in time<br />
+    ... trying to understand the cardinatlity of the data
+    structure, how to use the data structure, it will create
+    confusion out there and create more confusion around the use of
+    the data structure<br />
+    ... so i do belive that there needs to be more discussion on
+    these aspects before moving forward</p>
+    <p class='phone'><cite>sam:</cite> mike your concerns about
+    just the data structures aren't enough to be deployable...
+    didn't we hear from jeff that we need to pick from those and
+    people can build things around it, and then people can build on
+    that later<br />
+    ... it's timely to do the data structure work, and peopel can
+    build things that aren't standard</p>
+    <p class='phone'><cite>mike:</cite> i could be wrong, but i
+    believe that these are interdependent, that you have to
+    understand in these cases how it's going to be used to know
+    what you have to represent<br />
+    ... it's sedgwicks' algorithms book that the opening phrase is
+    data structures are algorithms, they imply usage</p>
+    <p class='phone'><cite>chris:</cite> tho i will be the first to
+    say that i feel overly constrained by the no protocols no
+    crypto in the verifiable claims group, we did come up with
+    something fairly solid<br />
+    ... so i would find it acceptable to take that same approach
+    with DIDs and only focus on that side of things<br />
+    ... if i were to extend it i wouldn't extend it as far as
+    you've said<br />
+    ... i dont like the name DIDAuth, i would like to have a simple
+    two party proof of control as a sort of minimum viable test of
+    a DID<br />
+    ... i do no t believe we should talk about DID resolution or
+    universal resolving becasuse i think that's going to be up to
+    the marketplace<br />
+    ... we already demonstrate that works now, there will be market
+    realities to push people together<br />
+    ... definining a minimum viable proof of control will help
+    verifiable claims a bunch, it will demonstrate the DID spec
+    does what we promise, then we will talk with people who will do
+    three party and more complex structures on the back of that as
+    separate future working groups</p>
+    <p class='phone'><cite>wendy:</cite> time check, lunch is
+    coming.</p>
+    <p class='phone'><cite>daniel:</cite> in terms of the technical
+    piece, i was curious when you bring up resolution it infers
+    other things<br />
+    ... resolutions infer other things, we're working on batching
+    that sticks things in bitcoin. other schemes don't do
+    that<br />
+    ... the idea that we standardize resolution, we'll run a plugin
+    that resolves each one, you can't really standardize the
+    resolution steps because they are inherently different just
+    like you can't standardize tthe math in a cryptographic
+    scheme<br />
+    ... so that's how you should in your mind associate a DID
+    method's logic and what we can standardize</p>
+    <p class='irc'>&lt;<cite>Zakim</cite>&gt; kimhd_, you wanted to
+    ask clarifying questions in case no one addresses it</p>
+    <p class='phone'><cite>kim:</cite> one thing that's coming up,
+    i'm hearing what's different rules for what's requiered to make
+    a WG</p>
+    <p class='irc'>&lt;<cite>daniel</cite>&gt; You're next</p>
+    <p class='phone'><cite>kim:</cite> you're mentioning some
+    criteria of what i've heard before<br />
+    ... christopjher said we need to have a focused data model and
+    syntax. we've been incubating a lot of these standards, we have
+    a roadmap.<br />
+    ... one thing that mjight be helpful is to push for some
+    clarity on what we need for working group formation so we dont'
+    feel like we're reacting to what feel like arbitrary rule
+    changes</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; <a href=
+    "https://www.w3.org/2018/Process-20180201/#WGCharterDevelopment">
+    https://www.w3.org/2018/Process-20180201/#WGCharterDevelopment</a>
+    W3C Process re charter development</p>
+    <p class='phone'><cite>mike:</cite> i'm not describing rules
+    for WG formation, i'm describing in my experience as a
+    stnadards developer what you need to do to have the work
+    product of the standards output to succeed</p>
+    <p class='phone'><cite>chris:</cite> if we were adding one
+    simple proof of control that everyone could support would that
+    be enough?</p>
+    <p class='irc'>&lt;<cite>Zakim</cite>&gt; manu, you wanted to
+    say JWTs are a data format, that's it -- how is that any
+    different?</p>
+    <p class='phone'><cite>mike:</cite> that's a step in the right
+    direction, i don't have preconceived boundaries on what the
+    particulars are<br />
+    ... the particulares may be different for all of them but you
+    have to write down one or two of them to have interoperable
+    implementations</p>
+    <p class='phone'><cite>manu:</cite> i'm disappointed with the
+    line of argumentation that some of a vocal minority in the JWT
+    community (mostly from Microsoft) are making... that Working
+    Groups focusing on Data Models only are not useful<br />
+    ... JWTs are a data model full stop<br />
+    ... in that sense, it's strange to me that doing a data model
+    is not enough for a WG<br />
+    ... it's a very strange argument<br />
+    ... the second thing is there are a number of companies that
+    are building and deploying verifiable creds to real customers
+    today<br />
+    ... this is not a theoretical exercise, there are organizations
+    involved i nthis work, and i'll note that those taking
+    exception to the WG are not building these systems<br />
+    ... so as someone who is leading a company writing this code
+    that having a DID spec in place even if only a data model is
+    going to help greatly that ensuring this market as it's growing
+    has something to build off of<br />
+    ... there are other pieces coming in place down the road but we
+    are taking a very staged appropach to what we're doing</p>
+    <p class='phone'><cite>wendy:</cite> we are going to break for
+    lunch<br />
+    ... take an hour for lunch and come back at 1:20</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; [1 hour lunch]</p>
+    <p class='irc'>&lt;<cite>brentz</cite>&gt; scribenick:
+    brentz</p>
+    <p class='phone'><cite>weiler:</cite> we've done some shuffling
+    of the schedule</p><br />
+    . . .we are thinking of doing the roadmap presentations first
+    <p class='phone'><cite>scribe:</cite> any objections? No?
+    Good.</p><br />
+    . . . First up will be Mathias Brossard<br />
+    . . . he is not here. First up will be Mathias
+    <p class='phone'><cite>Mathias:</cite> Currently doing IoT
+    work. What does attestation have to do with EAT?</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; <a href=
+    "https://docs.google.com/presentation/d/1KmOINE7ZF2Orpx1YJeyiXhqSAxZVbmb4WjOXgsWOY2E/edit?usp=sharing">
+    Mathias's slides</a></p><br />
+    . . . seems like most of us aren't familiar with
+    attestation<br />
+    . . . [describing slide] trying to create building blocks for
+    IoT. One of the services would be for attestation.
+    <p class='phone'><cite>scribe:</cite> the attestation is that
+    you are speaking with the device you think you are, iun a way
+    you can trust.<br />
+    ... [slide 2]<br />
+    ... these are not the only attestation suppliers. As in the
+    example of the supply chain, sometimes you need to know the
+    identity of the things you are dealing with.<br />
+    ... There is a working group around RATS, EATS is the
+    container.<br />
+    ... smaller devices may be limited to 64 kB of RAM.<br />
+    ... [slide 3] different systems have different ways of
+    expressing claims.<br />
+    ... encodings, assigning keys, running sets of PKIs, for the
+    policies that will be validated, these are all part of the
+    trust model.<br />
+    ... my device may be making claims, but we may want those
+    claims aggregated with others.<br />
+    ... when authenticating to a system, the device can attest that
+    it meets the appropriate security level.<br />
+    ... [slide 4] when you are talking ot a 3rd party, can you just
+    trust them? don't you want to go further?<br />
+    ... If they have the proper credentials, but the software has
+    been altered, that is only one possible problem that
+    attestation may address.</p>
+    <p class='phone'><cite>ChrisBoscolo:</cite> are there any 3rd
+    party audits available? is there a way for outsiders to know
+    that the process for making the chips is secure?</p>
+    <p class='phone'><cite>Mathias:</cite> there are certifications
+    for that.</p>
+    <p class='phone'><cite>ChristopherA:</cite> Quick DID and VC
+    architecture roadmap<br />
+    ... two efforts we are tracking [Slide 1]<br />
+    ... VCs allow for multiple sources of information. In order for
+    many of the use cases with VCs, we feel we also need DIDs.</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; <a href=
+    "https://docs.google.com/presentation/d/1pD55OjZuJYWhffFgKxCS_jdmrBqDJuL8Myz3EbACT18/edit?usp=sharing">
+    ChristopherA's slides</a></p>
+    <p class='phone'><cite>ChristopherA:</cite> Hopefully the VCWG
+    will be wrapping up in a few months.<br />
+    ... There is a need for other things to be incubated [slide
+    2]<br />
+    ... this is where we allow the flexibility. DID Methods are not
+    ready to move into specification.<br />
+    ... there has been lots of discussion about what should be in
+    or out of the DID Document<br />
+    ... [slide 3] Once we can use VCs with DIDs, there are a lot of
+    use cases and special examples that can be explored.<br />
+    ... there are many questions around protocol and consent that
+    are unanswered.<br />
+    ... Doubt we will get to the bottom few in the next several
+    years.<br />
+    ... how do we turn this into a service of value.<br />
+    ... lots of discussion about DID Auth, there is a Rebooting Web
+    of Trust whitepaper that outlines these.<br />
+    ... [slide 4] OCAP solves a number of problems around ambient
+    authority.<br />
+    ... Credential requests and exchanges are out of scope.<br />
+    ... cryptographic proofs is a big confusing area, we don't just
+    use signatures anymore.<br />
+    ... zero-knowledge proofs allow for new and exciting things
+    that add real value.<br />
+    ... zkp is tough because it is academically and
+    implementationally challenging.<br />
+    ... [slide 5] giant diagram roadmap<br />
+    ... further down the page are things far in the future.<br />
+    ... one of the tasks of the ccg is to update this roadmap, this
+    will happen in january.</p>
+    <p class='irc'>&lt;<cite>Zakim</cite>&gt; manu, you wanted to
+    note that all of this is future work once we get DID WG (data
+    model in place) and that all of this stuff isn't happening in a
+    vacuum, we're being very careful</p>
+    <p class='phone'><cite>manu:</cite> just to clarify, this is a
+    roadmap, it is future-looking. What we need is a working group
+    specifically for data model and syntax.<br />
+    ... the other thing to note is that therte are a variety of
+    things being worked on in the ccg.<br />
+    ... these things are not happening in a vacuum, a lot of work
+    is going on around these things.</p>
+    <p class='phone'><cite>Dirk:</cite> how do all of these pieces
+    hang together? the verifiable credentials and DIDs, how do they
+    hang together?<br />
+    ... Would the credential be issued to a DID?</p>
+    <p class='phone'><cite>ChristopherA:</cite> Yes the claim would
+    be issued to the DID. There are correlation issues with using
+    an identifier this way.<br />
+    ... the process of a verifier getting the information they need
+    during presentation might be iterative, leading to trust
+    between two parties.</p>
+    <p class='phone'><cite>Dirk:</cite> so, if I only have one DID
+    that satisfies this information, I have to disclose that
+    one?</p>
+    <p class='phone'><cite>ChristopherA:</cite> yes, there is some
+    correlation leakage there.<br />
+    ... with BTCR there is a very anonymous scenario where DIDs are
+    uses more selectively.</p>
+    <p class='phone'><cite>Dirk:</cite> If I want to prove my
+    birthdate to two people, do I need to share my DID?</p>
+    <p class='phone'><cite>ChristopherA:</cite> No, the Sovrin
+    solution allows for pairwise DIDs and zero-knolwedge proofs
+    about the claims you are sharing.</p>
+    <p class='phone'>Dalys Sebastian: how does DID resolution work
+    from an application developer point of view?</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; s/???/Dalys/</p>
+    <p class='phone'><cite>ChristopherA:</cite> there are a couple
+    of different approaches. Markus did a resolver that did
+    VeresOne, BTCR, Sovrin DIDs as a first step.<br />
+    ... it was a plugin architecture that allowed for
+    expansion.<br />
+    ... interoperability between DIDs is difficult between methods
+    because the root of trust for resolution is different for
+    different cases.<br />
+    ... a developer may have a resolver and they would need to
+    choose the plugins they need to use.<br />
+    ... you may have a number of credentials from a number of
+    parties.</p>
+    <p class='irc'>&lt;<cite>Zakim</cite>&gt; JoeAndrieu, you
+    wanted to reiterate that proof of control is just a single
+    factor</p>
+    <p class='phone'><cite>JoeAndrieu:</cite> fetishization of
+    proof of control of a DID leads to poor understanding. There is
+    potentially a lot more to a proof than a single attribute.</p>
+    <p class='irc'>&lt;<cite>Zakim</cite>&gt; kimhd, you wanted to
+    comment on did resolution</p>
+    <p class='phone'><cite>ChristopherA:</cite> VCs can only prove
+    that someone said something, not that what they said is
+    true.</p>
+    <p class='phone'><cite>kimhd:</cite> each DID method must say
+    how to resolve it, along with the CRUD operations.</p>
+    <p class='phone'><cite>ChristopherA:</cite> but all of the
+    methods have something in common. With BTCR there is a lot of
+    magic happening on the back end, developers don't care about
+    that.<br />
+    ... they only care that the resolver did the right thing.<br />
+    ... one more thing, these aren't standards yet.</p>
+    <p class='phone'>Greg is up and has no slides.</p>
+    <p class='phone'><cite>weiler:</cite> we are out of time.</p>
+    <p class='phone'><cite>greg:</cite> i won't take much time. We
+    have lots of money to invest. There needs to be a bridge
+    between standards and implementation.<br />
+    ... one example of our investments is in the Brave token. They
+    need an identity solution or there will be a lot of felonies
+    committed.<br />
+    ... Policy context could serve to guide this work. This is the
+    most political protocol I have ever seen.</p>
+    <h3 id="item09">5 Year Roadmap: Authenticators</h3>
+    <p class='phone'><cite>greg:</cite> encourage you to not be
+    politicized, but be aware that the work you are doing will be
+    weaponized.</p>
+    <p class='phone'>John Bradley: Our standards are pretty much
+    wrapped up.</p>
+    <p class='phone'><cite>scribe:</cite> we are in our initial
+    deployment phase.<br />
+    ... we now have authenticators out there<br />
+    ... the latest version of Windows 10 has support for the new
+    tech.<br />
+    ... Google and Android support it.<br />
+    ... FIDO is working with them.<br />
+    ... Shout out to the apple folks who just released their
+    initial support.<br />
+    ... our next work is divided between FIDO and Web Authn<br />
+    ... we are looking at additional extensions to better deal with
+    the user experience for lost keys.<br />
+    ... looking at alternative algorithms in the coming years.
+    possibly threshold signatures.<br />
+    ... right now Web Authn is about proving possession of a TLS
+    certificate, once all else is stripped away.<br />
+    ... theoretically this could be extended to be proof control of
+    a DID<br />
+    ... we have a few projects over the coming years, but now we're
+    dealing with deployment issues.<br />
+    ... Web Authn as a first factor for log in can be done with
+    hotmail.<br />
+    ... there may be a version of chrome on a future version of
+    Windows that can use the platform authenticators<br />
+    ... hopefully there will be more sorting out and user
+    experience improvement.</p>
+    <p class='phone'><cite>tony:</cite> there are many
+    authenticator key companies out there. Were do you see this
+    going in the next 5 years?</p>
+    <p class='phone'>John Bradley: there will probably be pressure
+    on those at the lower end of the spectrum due to fingerprinting
+    possibilities.</p>
+    <p class='phone'><cite>scribe:</cite> roaming authenticators
+    may be more specialized into certain roles for banking,
+    etc.<br />
+    ... a lot of the enterprise smart card stuff should move to
+    external authenticators<br />
+    ... there are shared device use cases that require external
+    authenticators.<br />
+    ... there will be room for multiple vendors in the space.</p>
+    <p class='phone'>Mike Jones: ambush question, missed it</p>
+    <p class='phone'>John Bradley: there may be some minimal set of
+    things we'd need to decide on using in order to make use of the
+    DID documents as part of Web Authn.</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; s/ambush question,
+    misssed it/you mentioned some gaps in DID for use with
+    WebAuthn</p>
+    <p class='phone'><cite>scribe:</cite> from a standards point of
+    view, even if someone has managed to get it to work, that may
+    not be quite right.</p>
+    <p class='phone'><cite>manu:</cite> there is an experiment we
+    did with Web Authn keys in a DID document, using hardware keys
+    to sign.<br />
+    ... we need to start somewhere in a DID working group.<br />
+    ... there are many experiments we could do, but there is a base
+    layer we need to get down.</p>
+    <p class='phone'>John Bradley: did you hack the DID into the
+    RPID?</p>
+    <p class='phone'><cite>manu:</cite> no, we did a 10 line change
+    to the google source code.</p>
+    <p class='phone'>John Bradley: so the RPID was the url you were
+    looking at, not the top level DID.</p>
+    <p class='phone'><cite>scribe:</cite> other questions?</p>
+    <p class='phone'><cite>Dalys_Sebastian:</cite> Were the
+    verifier and the issuer of the same origin in web authn?</p>
+    <p class='phone'>John Bradley: as long as they are in the same
+    origin and have a TLS certificate it may work.</p>
+    <p class='phone'><cite>Tony:</cite> this is level one, there
+    are things that need to be fixed in level two.</p>
+    <p class='phone'>John Bradley: Manu ran into issues with this
+    in web payments, big security problems with iframes in origins.
+    bad things in java script. don't do this.</p>
+    <p class='irc'>&lt;<cite>pindarhk</cite>&gt; Sorry I will need
+    to be excused in about 30 minutes to head back to HKG.
+    Apologies in advance.</p>
+    <p class='phone'><cite>manu:</cite> promising experiment, not a
+    good browser to actually use.</p>
+    <p class='phone'><cite>jzcallahan:</cite> Manu asked us to talk
+    during this session.<br />
+    ... from Veridium, specializing in biomentric authentication
+    within a company.<br />
+    ... gratified that there has been a separation of discussion
+    between authentication and identity verification<br />
+    ... Gartner says these fields are colliding.</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; <a href=
+    "https://docs.google.com/presentation/d/10y0w6aOYz1BnogxvZrpxfBjf_tIlB9fZdoYI7OTD7kE/edit#slide=id.g464b626fcd_2_75">
+    jzcallahan's Veridium slides</a></p>
+    <p class='phone'><cite>jzcallahan:</cite> becoming conflated.
+    We've focused on the enterprise. A platform that supports
+    numerous native and non-native authenticators.<br />
+    ... now, smart phones eliminate the need for special hardware.
+    Coming soon, our devices will get really good at knowing we are
+    use.<br />
+    ... what's coming, in addition to the biometric, need
+    anti-spoofing measures.<br />
+    ... Kaliya doesn't understand the slide</p>
+    <p class='phone'>Kaliya doesn't understand the slide</p>
+    <p class='phone'><cite>jzcallahan:</cite> don't worry about
+    placement.<br />
+    ... It is imperative to add liveness. Biometrics are not
+    passwords.<br />
+    ... an attacker who presents a facsimile should not
+    succeed.<br />
+    ... the context of the biometric authentication is
+    important.<br />
+    ... using different factors: time, common movement, etc.<br />
+    ... [IEEE 2410-2017 slide]<br />
+    ... what we discovered in the marketplace, mobile to mobile
+    mode needed to be updated to support server-side.<br />
+    ... m2m is good for authentication, basically equivalent to
+    FIDO.<br />
+    ... will be FIDO certified in the future.<br />
+    ... In other cases, for account recovery, using Shamir secret
+    sharing with one piece on the device and another on the server,
+    allows server-side protocols to avoid storing the biometric
+    fully on the server.<br />
+    ... the idea is we want to cover global needs<br />
+    ... instead of going through a KYC process (which may involve
+    biometrics)<br />
+    ... you can do different things [slide: initial
+    onboarding]<br />
+    ... doesn't require subsequent biometric enrollment<br />
+    ... reduce friction but support KYC/AML<br />
+    ... there are places this is required. Once biometric check is
+    done, it can be thrown away.<br />
+    ... there are only a limited number of cases that require
+    central storage.<br />
+    ... SSI Biometrics would allow for roaming KYC.<br />
+    ... make the credentials standard requires SSI<br />
+    ... how could we do biometric authentication in a Web Authn
+    context.<br />
+    ... [slide: Biometric DID Auth]<br />
+    ... this is a proof of conecpt for how these things could be
+    tied together.</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; jbradley: that's
+    easily phishable</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; ... it fails at
+    the QR code</p>
+    <p class='phone'><cite>jzcallahan:</cite> failed at the QR
+    code<br />
+    ... you have a cloud agent acting on your behalf<br />
+    ... Sovrin and uport could be used on the back end.<br />
+    ... allows KYC vendors to monetize their process.</p>
+    <p class='phone'><cite>Jill:</cite> can your system account for
+    simple dynamic things?</p>
+    <p class='phone'><cite>jzcallahan:</cite> We don't want to
+    handle the whole KYC thing, we want to stay in our lane and
+    provide biometric credentials.<br />
+    ... KYC is the gate, the ongoing AML is where the costs
+    lie.<br />
+    ... we are paying close attention to the VC work.</p>
+    <p class='phone'><cite>Jill:</cite> client onboarding happens
+    first, but you need to update who your customer is, that's what
+    KYC means.</p>
+    <p class='phone'><cite>jzcallahan:</cite> we don't want to do
+    our own transaciton monitoring, we want to provide the
+    biometric claim that exists as part of the rest of the
+    ecosystem.</p>
+    <p class='phone'><cite>Marie:</cite> I am from Gemalto, digital
+    strategy team.</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; <a href=
+    "https://docs.google.com/presentation/d/1PdLYQ6cBOUoknaij3naDGSBqm6xsof91Zd6rtMeDhSk/edit">
+    Marie's slides</a></p>
+    <p class='phone'><cite>Marie:</cite> PSD2 regulation
+    discussion<br />
+    ... [slide 1] two objectives.<br />
+    ... banks are very protective of their customers and the
+    data<br />
+    ... this is not currently optimally done.<br />
+    ... lots of data breaches and account takeover. goal is to
+    reach same level of assurity with e-commerce as with chip
+    cards.<br />
+    ... [slide 2] European banking organization created SCA<br />
+    ... essentially 2FA</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; Marie: PSD2 takes
+    effect Sept 2019 for any banks or retailers in Europe or doing
+    business in Europe</p>
+    <p class='phone'><cite>Marie:</cite> but also requires
+    dynamically linked data<br />
+    ... [slide 3] shop authenticates user out of band<br />
+    ... issuer decides everything in this model</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; [slide 4]</p>
+    <p class='phone'><cite>Marie:</cite> not in line with what
+    retailers need<br />
+    ... retailers want control<br />
+    ... this will affect the bottom line</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; [slide 5]</p>
+    <p class='phone'><cite>Marie:</cite> they are looking for
+    alternatives</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; [slide 6]</p>
+    <p class='phone'><cite>Marie:</cite> merchant will authenticate
+    the user.<br />
+    ... and decide at which step this must happen, and where to add
+    the friction.<br />
+    ... credit cards are determining the framework.<br />
+    ... FIDO and Web Authn seem like a good solution.</p>
+    <p class='irc'>&lt;<cite>pindarhk</cite>&gt; I'm sorry that I
+    didn't get to personally meet everyone. If you come by Hong
+    Kong, please do drop me a line at EMAIL_HIDDEN :)</p>
+    <p class='phone'><cite>Marie:</cite> thanks to FIDO, there is a
+    standard that anyone can verify</p>
+    <p class='phone'>John Bradley: not everyone can verify the
+    signature</p>
+    <p class='phone'><cite>Marie:</cite> This may not be doable
+    today, but this presentation is about the 5 year road map</p>
+    <p class='phone'><cite>wseltzer:</cite> possibly a gap in the
+    standards if that can't be solved.</p>
+    <p class='phone'>John Bradley: I was just in France. Once we
+    get the capabilities in the iframe, using the web payments API,
+    that will use the bank as the RPID so the key that is
+    registered can be validated.</p>
+    <p class='phone'><cite>Marie:</cite> the point of those slides
+    is to introduce the PSD2.</p>
+    <p class='phone'>John Bradley: yes, I think we can make good
+    progress here, but there are privacy issues.</p>
+    <p class='phone'><cite>wseltzer:</cite> we have been working at
+    W3C on this question between the Web Authn and Web Payments
+    WGs, we are sending a charter for joint discussion of this
+    work.</p>
+    <p class='phone'><cite>Marie:</cite> Is there a 3d Secure
+    implementation in the Web Payments group?</p>
+    <p class='phone'>John Bradley: yes</p>
+    <p class='phone'><cite>Pam:</cite> One question about your
+    diagram. Who's directory server is it?</p>
+    <p class='phone'><cite>Marie:</cite> Visa, mastercard.</p>
+    <p class='phone'><cite>Pam:</cite> there may be a missing
+    participant, where is the payment processor?</p>
+    <p class='phone'><cite>Marie:</cite> it is connected to the
+    directory server.</p>
+    <p class='phone'><cite>tomj:</cite> should a relying party be
+    required to accept authorizarions from unrelated parties?<br />
+    ... this could create a real problem for this group.</p>
+    <p class='irc'>&lt;<cite>weiler</cite>&gt; tonj: banks need to
+    be fiduciaries for the customer, not the merchant</p>
+    <p class='phone'><cite>Greg:</cite> I was in Paris with Visa,
+    just talking about this. banks need to be fiduciaries for their
+    customers.<br />
+    ... in Europe this is different than in the US.<br />
+    ... with PSD2, privacy rights are treated like human rights, in
+    US they are contract rights.<br />
+    ... the contract orientation and the elevation of terms of use
+    means it is very difficult for self sovereign identity to
+    triumph.</p>
+    <p class='phone'><cite>wseltzer:</cite> thank you Marie. There
+    are snacks. let's break. we will reconvene after the break.
+    maybe some breakouts. not much time left.<br />
+    ... only a half hour left. mostly for breakout groups.</p>
+    <h3 id="item10">Final Remarks and Breakouts</h3>
+    <p class='phone'><cite>wseltzer:</cite> we have smart people
+    and a lot of work to do. possibly not a good sense of exactly
+    what is next.<br />
+    ... lots of interest in interop, a DIDWG charter, etc.<br />
+    ... we can continue the discussion with the mailing list from
+    this workshop.</p>
+    <p class='irc'>&lt;<cite>manu</cite>&gt; -1 on new CG for
+    DIDs</p>
+    <p class='irc'>&lt;<cite>manu</cite>&gt; -1 on another workshop
+    :) (except continuing work in RWoT, CCG, etc.)</p>
+    <p class='phone'><cite>wseltzer:</cite> we want to continue to
+    develop solutions to these hard problems.</p>
+    <p class='phone'><cite>weiler:</cite> limited time
+    available<br />
+    ... looking for 2 to 4 conversations.<br />
+    ... who wants to choose a topic?<br />
+    ... vote for confusion resolution<br />
+    ... open ID connect DID?<br />
+    ... 2<br />
+    ... translator for Ethereuem openid?<br />
+    ... no<br />
+    ... a login with DID button?<br />
+    ... no<br />
+    ... Selective permissionless delegation?<br />
+    ... no<br />
+    ... these are not giving us discussion ideas.<br />
+    ... the ones with the most agree and disagree are the
+    chartering discussions<br />
+    ... one of the breakouts is the DID WG chartering.<br />
+    ... who doesn't want to go to that one?</p>
+    <p class='phone'><cite>Dirk:</cite> we've talked a lot about
+    solutions, not sure what problems we are trying to solve.</p>
+    <p class='phone'><cite>weiler:</cite> chartering and use cases,
+    is there a third?</p>
+    <p class='phone'><cite>ChristopherA:</cite> is there anybody
+    else interested in the true anonymous use cases?</p>
+    <p class='phone'><cite>weiler:</cite> that's three.</p>
+    <p class='irc'>&lt;<cite>wseltzer</cite>&gt; [breakouts,
+    followed by adjournment. We'll capture outputs and report back
+    on the participants' list.]</p>
+  </div>
+  <h2><a name="ActionSummary" id="ActionSummary">Summary of Action
+  Items</a></h2><!-- Action Items -->
+  <h2><a name="ResolutionSummary" id="ResolutionSummary">Summary of
+  Resolutions</a></h2><!-- Resolutions -->
+  [End of minutes]<br />
+  <hr />
+  <address>
+    Minutes manually created (not a transcript), formatted by David
+    Booth's <a href=
+    "http://dev.w3.org/cvsweb/~checkout~/2002/scribe/scribedoc.htm">
+    scribe.perl</a> version 1.154 (<a href=
+    "http://dev.w3.org/cvsweb/2002/scribe/">CVS log</a>)<br />
+    $Date: 2018/12/11 23:51:55 $
+  </address>
+  <div class="diagnostics">
+    <hr />
+    <h2>Scribe.perl diagnostic output</h2>[Delete this section
+    before finalizing the minutes.]<br />
+    <pre>
+This is scribe.perl Revision: 1.154  of Date: 2018/09/25 16:35:56  
+Check for newer version at <a href=
+"http://dev.w3.org/cvsweb/~checkout~/2002/scribe/">http://dev.w3.org/cvsweb/~checkout~/2002/scribe/</a>
+
+Guessing input format: Irssi_ISO8601_Log_Text_Format (score 1.00)
+
+Succeeded: s/ok//
+Succeeded: s/Kaliya/@@@/
+Succeeded: s/could you please again share the link to the google slides?//
+Succeeded: s/thx//
+Succeeded: s/me/\/me/
+Succeeded: s/me can only do this for a little while//
+Succeeded: s/ in my use cases (educational credentials) we've not been good about getting the message out/our pre-standards groups have not done a great job communicating the use cases (like educational credentials). We are actively working on that/
+Succeeded: s/WG/CG/
+Succeeded: s/oops, meant to q-//
+Succeeded: s/concersn/concerns/
+Succeeded: s/slightly frustrated with the direction/disappointed with the line of argumentation/
+Succeeded: s/the JWT folks are taking/a vocal minority in the JWT community (mostly from Microsoft) are making... that Working Groups focusing on Data Models only are not useful/
+Succeeded: i/there were four different/Topic: Seeking Clarity (around DIDs and other breakout items)
+Succeeded: i/there were four different/Topic: Seeking Clarity (around DIDs and other breakout items)
+Succeeded: s/we meet weekly/community is composed of 225+ people who meet weekly/
+Succeeded: s/about 30 people/calls each week are between 20-30 people joining, so healthy and active group/
+Succeeded: s/haha thanks//
+Succeeded: s/Matthias/Mathias/
+Succeeded: s/Christopher Allen/Mathias Brossard/
+Succeeded: s/???/ChrisBoscolo/
+Succeeded: s/???/Dalys Sebastian/
+FAILED: s/???/Dalys/
+FAILED: s/ambush question, misssed it/you mentioned some gaps in DID for use with WebAuthn/
+Succeeded: s/&lt;tech gable mubo jumbo&gt;/RPID/
+Succeeded: s/???/Dalys_Sebastian/
+Succeeded: s/whole VC thing/whole KYC thing/
+Succeeded: s/pindar.wong@gmail.com/EMAIL_HIDDEN/
+Succeeded: s/participation in/discussion of/
+Succeeded: s/final remarks and breakouts/Final Remarks and Breakouts/
+Succeeded: s/@wseltzer/wseltzer/g
+Present: jfontana JoeAndrieu burn Brent_Zundel ChristopherA kimhd weiler hober aaronpk achughes Karen Shigeya Suzuki
+Found Scribe: manu
+Inferring ScribeNick: manu
+Found ScribeNick: weiler
+Found ScribeNick: aaronpk
+Found ScribeNick: brentz
+ScribeNicks: manu, weiler, aaronpk, brentz
+Agenda: <a href=
+"https://www.w3.org/Security/strong-authentication-and-identity-workshop/schedule.html#tuesday-december-11th">https://www.w3.org/Security/strong-authentication-and-identity-workshop/schedule.html#tuesday-december-11th</a>
+
+WARNING: No date found!  Assuming today.  (Hint: Specify
+the W3C IRC log URL, and the date will be determined from that.)
+Or specify the date like this:
+&lt;dbooth&gt; Date: 12 Sep 2002
+
+People with action items: 
+
+WARNING: IRC log location not specified!  (You can ignore this 
+warning if you do not want the generated minutes to contain 
+a link to the original IRC log.)
+
+
+</pre>[End of <a href=
+"http://dev.w3.org/cvsweb/~checkout~/2002/scribe/scribedoc.htm">
+    scribe.perl</a> diagnostic output]
+  </div>
+</body>
+</html>
