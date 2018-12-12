@@ -30,14 +30,14 @@ The workshop will be held in Microsoft Building 27, room 1810 - Olympic.  The ad
    * Supply Chain
    * Legal
    * Once Upon a Time
-* 4:30 PM	 Wrap up / Agenda Bashing, Wendy Seltzer
+* 4:30 PM	 Wrap up / Agenda Gardening, Wendy Seltzer
 * 5:00 PM	Close
 * Afterhours: Zeitgeist of concerns and potential work items
 * 6:00 PM	Group Dinner
 
 
 ## Tuesday, December 11th	
-* 9:00 AM	Procedural / Agenda Setting
+* 9:00 AM	Procedural / Agenda Gardening
 * 9:30 AM	Dot voting: Concerns and Potential Work Items
 * 9:45 AM	Exploring Cultural and Economic Perspectives
 * 10:15 AM	Avoiding mistakes and minefields
