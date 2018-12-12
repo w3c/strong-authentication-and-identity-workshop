@@ -1,1 +1,1 @@
-This repo is based on the [W3C Workshop Homepage Template](https://github.com/w3c/ws-homepage-template) by Ivan Herman, ivan@w3.org.
+Materials for the recent workshop are linked from the minutes and available in this [drive folder](https://drive.google.com/drive/folders/1Oldmw0i1NKhJJwKflG4X9egqP6LLySA2)
