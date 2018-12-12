@@ -35,7 +35,7 @@ This workshop, as other W3C meetings, operates under its [Code of Ethics and Pro
 
 Topics will include:
 
-> * Strong Authentication: FIDO, WebAuthn, IFAA, DIDAuth, OpenID Connect
+> * Strong Authentication: FIDO, WebAuthn, IFAA, DIDAuth, OpenID Connect, IEEE 2410
 > * Strong Identity: ISO 29003, Entity Attestation Token (EAT)
 > * Decentralized Identity (DID): Blockchain / Distributed Ledger Technologies, Verifiable Credentials
 > * Federation: OpenID Connect, SAML, IndieAuth, DID
