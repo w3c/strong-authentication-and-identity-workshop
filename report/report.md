@@ -538,12 +538,11 @@ There is a strong trend towards privacy-enhancing technologies that place primar
 The following next steps have been identified by members of the community:
 
 
-
-*   The next Rebooting the Web of Trust is March 1-3 in Barcelona. All of these are expected to be active topics there, especially DIDs and the general direction of turning "DID Auth" into other existing protocols.
+*   The next Rebooting the Web of Trust (RWoT) is March 1-3 in Barcelona. All of these are expected to be active topics there, especially DIDs and the general direction of turning "DID Auth" into other existing protocols.
 *   The next Internet Identity Workshop is April 30 through May 2 in Mountain View, CA. This too is expected to continue to advance the community dialog. [https://www.internetidentityworkshop.com/](https://www.internetidentityworkshop.com/)
 *   W3C Credentials Community Group Roadmap: [https://w3c-ccg.github.io/roadmap/diagram.html](https://w3c-ccg.github.io/roadmap/diagram.html) 
 *   IETF non-WG EAT list (Entity Attestation Token) [https://mailarchive.ietf.org/arch/browse/eat/](https://mailarchive.ietf.org/arch/browse/eat/) 
-*   IETF non-WG RATS list (Remote ATtestation ProcedureS) [https://mailarchive.ietf.org/arch/browse/rats/ ](https://mailarchive.ietf.org/arch/browse/rats/)and draft charter [https://datatracker.ietf.org/doc/charter-ietf-rats/](https://datatracker.ietf.org/doc/charter-ietf-rats/) 
+*   IETF non-WG RATS list (Remote ATtestation ProcedureS) [https://mailarchive.ietf.org/arch/browse/rats/ ](https://mailarchive.ietf.org/arch/browse/rats/) and draft charter [https://datatracker.ietf.org/doc/charter-ietf-rats/](https://datatracker.ietf.org/doc/charter-ietf-rats/) 
 
 
 # 7. W3C Next Steps
@@ -560,4 +559,4 @@ Upcoming F2Fs and Meetings
 
 
 
-*   The Verifiable Claims Working Group has a face-to-face meeting in Barcelona March 4-5
+*   The Verifiable Claims Working Group has a face-to-face meeting in Barcelona March 4-5, immediately following RWoT,
