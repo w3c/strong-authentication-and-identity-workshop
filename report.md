@@ -2,14 +2,6 @@
 layout: home
 ---
 
-# _DRAFT_ W3C Strong Authentication and Identity Workshop Report
-
-_December 10th-11th, Redmond, WA_
-
-This is a draft report from the W3C Strong Authentication and Identity Workshop
-noting the topics covered during the workshop as well as the outcomes and next
-steps identified by the workshop participants.
-
 # 1. Introduction
 
 The W3C Strong Authentication and Identity Workshop gathered experts in the space to explore the existing standards landscape, examine existing technology roadmaps, and identify potential future work for how strong identity and strong authentication should work on the web. The workshop explored aligning recent W3C specifications (WebAuthn, Verifiable Claims, Web Payments) and work that is ongoing in the W3C Credentials Community Group (DID, DIDAuth) along with the IETF and ISO, as well as other existing community standards such as IndieAuth, Open ID Connect, OAuth, and SAML.
@@ -17,12 +9,14 @@ The W3C Strong Authentication and Identity Workshop gathered experts in the spac
 
 # 2. Workshop Agenda
 
-Minutes: [https://www.w3.org/Security/strong-authentication-and-identity-workshop/minutes.html](https://www.w3.org/Security/strong-authentication-and-identity-workshop/minutes.html) 
+[Agenda](https://www.w3.org/Security/strong-authentication-and-identity-workshop/agenda)
 
+[Real-time minutes](https://www.w3.org/Security/strong-authentication-and-identity-workshop/minutes.html) 
 
 
 # 3. Presentations
 
+We summarize the presentations and link the slides shared. For discussion, see the [minutes](https://www.w3.org/Security/strong-authentication-and-identity-workshop/minutes.html) 
 
 ## 3.2. Understanding Verifiable Credentials
 
