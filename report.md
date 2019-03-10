@@ -233,6 +233,5 @@ The following next steps are currently under way at W3C:
 
 Upcoming F2Fs and Meetings
 
-
-
 *   The Verifiable Claims Working Group had a face-to-face meeting in Barcelona March 4-5, immediately following RWoT,
+*   The Web Authentication Working Group met face-to-face in San Francisco, California, March 7, to work on level 2.
