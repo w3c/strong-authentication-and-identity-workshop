@@ -6,7 +6,9 @@ layout: home
 
 The W3C Strong Authentication and Identity Workshop gathered experts in the space to explore the existing standards landscape, examine existing technology roadmaps, and identify potential future work for how strong identity and strong authentication should work on the web. The workshop explored aligning recent W3C specifications (WebAuthn, Verifiable Claims, Web Payments) and work that is ongoing in the W3C Credentials Community Group (DID, DIDAuth) along with the IETF and ISO, as well as other existing community standards such as IndieAuth, Open ID Connect, OAuth, and SAML.
 
-
+  <p class="image-paragraph">
+     <img src="assets/strong-auth.jpg" alt="Welcome! W3C Workshop on Strong Authentication and Identity">
+    </p>
 # 2. Workshop Agenda
 
 [Agenda](https://www.w3.org/Security/strong-authentication-and-identity-workshop/agenda)
