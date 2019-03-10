@@ -18,7 +18,7 @@ The W3C Strong Authentication and Identity Workshop gathered experts in the spac
 # 2. Workshop Agenda
 
 Minutes: [https://www.w3.org/Security/strong-authentication-and-identity-workshop/minutes.html](https://www.w3.org/Security/strong-authentication-and-identity-workshop/minutes.html) 
-
+    {% include agenda.html %}
 
 
 # 3. Presentations
