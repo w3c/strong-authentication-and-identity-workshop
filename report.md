@@ -139,99 +139,105 @@ Shigeya Suzuki描述了结构化标识符，查看了包括 UPC 条形码在内�
 
 ### 3.8.3 法律和边界
 
-From an Asia Pacific perspective, Pindar Wong invited the group to think about the next billion+, making self-administered identifiers serve  netizen expatriates and displaced people whose right to work online is uncertain or unlawful as they have questionable legal standing or non-lawful status.
+从亚太地区的角度，Pindar Wong 邀请讨论小组考虑到下面谈到的十多亿人，让自我管理标识符服务于那些在网上工作权利不确定或不合法的外籍网民和流离失所者，因为他们具有令人质疑的法律地位抑或非合法地位。
 
-[slides:  Law and Borders: Self-Administered IDentifiers and NExTPats: NETizen eXpatriates](https://www.w3.org/Security/201812-Auth-ID/10.3_Day_2_-_PindarWong.pdf)
-
-
-## 3.9. Trusted Identity
-
-Tom Jones and Mary Hodder spoke of the challenges of providing and using a "trusted identity," one backed with verified claims upon which a recipient can rely. 
-
-[slides: Use Case](https://www.w3.org/Security/201812-Auth-ID/12_-_Day_2_-_Trusted_Identity.pdf)
+讲者演示文稿：[Law and Borders: Self-Administered IDentifiers and NExTPats: NETizen eXpatriates](https://www.w3.org/Security/201812-Auth-ID/10.3_Day_2_-_PindarWong.pdf)
 
 
-## 3.10. Avoiding Mistakes and Minefields
+## 3.9. 受信身份
 
-Jeff Hodges shared  common challenges on the path from idea through specification and implementation. He noted the errors of inconsistent terminology assumptions and models, and that trust doesn't scale. A principle of "flexitility was proposed  -- build something that is nominally useful yet malleable such that it can evolve to satisfy further use cases."
+Tom Jones 和 Mary Hodder 谈到了提供和使用“受信身份”的挑战，受访者可以信任的验证声明是受信身份的前提和保障。
 
-[slides: Avoiding Mistakes and Minefields](https://www.w3.org/Security/201812-Auth-ID/11_-_Day_2_-_Avoiding_Mistakes_and_Minefields.pdf)
-
-
-## 3.11. Roadmap: Attestations
-
-Mathias Brossard described attestation as a building-block for IoT security, starting from EAT and RAT. 
-
-[slides: Attestation roadmap](https://www.w3.org/Security/201812-Auth-ID/13.5_-_Day_2_-_Attestation-Arm.pdf)
+讲者演示文稿：[Use Case](https://www.w3.org/Security/201812-Auth-ID/12_-_Day_2_-_Trusted_Identity.pdf)
 
 
-## 3.13. Roadmap: Decentralized Identifiers and Verifiable Credentials
+## 3.10. 避免错误和雷区
 
-Christopher Allen built a picture of the decentralized identity stack, from Verifiable Credentials (VCs), Decentralized Identifiers (DIDs), DID-Auth, and further potential technologies for future work. He shared the [Credentials Community Group's roadmap](https://w3c-ccg.github.io/roadmap/) [diagram](https://w3c-ccg.github.io/roadmap/diagram.html). 
+Jeff Hodges 分享了从构思到规范和实现过程中的共同挑战。他指出了术语假设和模型不一致的错误，因此，信任不会扩展。他提出了“灵活性”的原则，即构建一些名称上有用且具有延展性的概念，这样它就可以进一步发展以满足更多的用例。
 
-[slides: DID & VC Architecture roadmap](https://www.w3.org/Security/201812-Auth-ID/13_-_Day_2_-_5_Year_Roadmap__DIDs,_VCs,_and_Attestations.pdf)
-
-
-## 3.14. Roadmap: Biometrics
-
-John Callahan focused on enterprise use of biometrics with proof-of-liveness enabling "roaming KYC." (Know Your Customer) 
-
-[slides: Biometric Authenticators](https://www.w3.org/Security/201812-Auth-ID/14_-_Day_2_-_5_Year_Roadmap__Authenticators.pdf)
+讲者演示文稿：[Avoiding Mistakes and Minefields](https://www.w3.org/Security/201812-Auth-ID/11_-_Day_2_-_Avoiding_Mistakes_and_Minefields.pdf)
 
 
-## 3.15. Roadmap: Payment Authentication
+## 3.11. 路线图：认证
 
-Marie Lathière described European regulations requiring strong customer authentication, proposing that delegating authentication to merchants, with WebAuthn, can enable good security and user experience.
+Mathias Brossard 将认证描述为始于 EAT 和 RAT 的物联网安全的构建模块。
 
-[slides: the impacts of European regulation](https://www.w3.org/Security/201812-Auth-ID/14.5_Day_2_-_5_Year_Roadmap__Authenticators,_Gemalto.pdf)
-
-
-# 4. Data Produced by Workshop
-
-Participants broke-out into discussion groups several times. Some of their outputs were reported in [minutes](https://www.w3.org/Security/strong-authentication-and-identity-workshop/10Dec2018.html#item10). Other data were captured on index cards and "dot-voting" sheets. [These materials are linked](https://drive.google.com/drive/folders/190gzWNE-ynAk3DWsU2nN3B4Q2VL3W6IF?ths=true). 
+讲者演示文稿：[Attestation roadmap](https://www.w3.org/Security/201812-Auth-ID/13.5_-_Day_2_-_Attestation-Arm.pdf)
 
 
-# 5. Identified Trends
+## 3.13. 路线图：分散标识符和可验证凭证
+
+Christopher Allen 从可验证凭证（VC）、分散标识符（DID）、DID-Auth以及未来工作的其他潜在技术中创建了分散身份堆栈的图片。他分享了凭证社区组的路线图[Credentials Community Group's roadmap](https://w3c-ccg.github.io/roadmap/) [diagram](https://w3c-ccg.github.io/roadmap/diagram.html)。
+
+讲者演示文稿：[DID & VC Architecture roadmap](https://www.w3.org/Security/201812-Auth-ID/13_-_Day_2_-_5_Year_Roadmap__DIDs,_VCs,_and_Attestations.pdf)
 
 
-## 5.1. Integration of WebAuthn with Legacy Systems
+## 3.14. 路线图：生物识别技术
 
-There exist large legacy authentication systems that provide high assurance deployed and used by major governments and corporations. Two examples include the Common Access Card (CAC) and the Personal Identity Verification (PIV) card systems. There is work being performed to use this existing infrastructure to create "derived credentials" for use by newer authentication technologies such as that provided by the WebAuthentication specification, and potentially mechanisms provided via DID-Auth.
+John Callahan 专注于具有活性的生物识别技术在企业中的应用，该技术支持“漫游KYC”。（了解您的客户）
 
-
-## 5.2. Decentralized Identifiers and Verifiable Credentials
-
-A number of technology companies that participated in the workshop are involved with building solutions based on Decentralized Identifiers and Verifiable Credentials and integrating them with more traditional identity and credential issuing systems at large corporations and large governments. In many of these projects, W3C's focus on global interoperability and combating vendor lock-in were identified as key reasons that government and industry funding is being directed toward building an interoperable ecosystem. Many of the proof of concepts focus on interoperability at the Decentralized Identifier, Credential Issuer, Credential Holder (digital wallet), and Credential Verifier roles. While much of the work to date has focused on data models, there is increasing interest in interoperable protocols that move the interoperable data formats from DID Ledger to Issuer to Holder to Verifier.
+讲者演示文稿：[Biometric Authenticators](https://www.w3.org/Security/201812-Auth-ID/14_-_Day_2_-_5_Year_Roadmap__Authenticators.pdf)
 
 
-## 5.3. Privacy-Enhancing Technologies
+## 3.15. 路线图：付款验证
 
-There is a strong trend towards privacy-enhancing technologies that place primary control of identifiers, credentials, and authenticators into the hands of individuals. There was also an identified desire to move away from centralized control and storage for information related to identifiers, credentials, and authenticators. While this bodes well for addressing a variety of recent data breaches and questions around data sovereignty, the community seemed to agree that there was still a great deal of work that needed to be done to ensure privacy-enhancing technologies were used by default in the future. Many in attendance at the workshop noted that constant vigilance would be required by the W3C community, as well as the greater technical community, to ensure the current trend continues.
+Marie Lathière 描述了欧洲法规要求严格的客户身份验证，她建议使用 WebAuthn 将身份验证委托给商家，从而实现良好的安全性和用户体验。
 
-
-# 6. Community Next Steps
-
-The following next steps have been identified by members of the community:
+讲者演示文稿：[the impacts of European regulation](https://www.w3.org/Security/201812-Auth-ID/14.5_Day_2_-_5_Year_Roadmap__Authenticators,_Gemalto.pdf)
 
 
-*   The next Rebooting the Web of Trust (RWoT) is March 1-3 in Barcelona. All of these are expected to be active topics there, especially DIDs and the general direction of turning "DID Auth" into other existing protocols.
-*   The next Internet Identity Workshop is April 30 through May 2 in Mountain View, CA. This too is expected to continue to advance the community dialog. [https://www.internetidentityworkshop.com/](https://www.internetidentityworkshop.com/)
-*   W3C Credentials Community Group Roadmap: [https://w3c-ccg.github.io/roadmap/diagram.html](https://w3c-ccg.github.io/roadmap/diagram.html) 
-*   IETF non-WG EAT list (Entity Attestation Token) [https://mailarchive.ietf.org/arch/browse/eat/](https://mailarchive.ietf.org/arch/browse/eat/) 
-*   IETF non-WG RATS list (Remote ATtestation ProcedureS) [https://mailarchive.ietf.org/arch/browse/rats/ ](https://mailarchive.ietf.org/arch/browse/rats/) and draft charter [https://datatracker.ietf.org/doc/charter-ietf-rats/](https://datatracker.ietf.org/doc/charter-ietf-rats/) 
+# 4. 研讨会数据
 
-
-# 7. W3C Next Steps
-
-The following next steps are currently under way at W3C:
+与会者进行了多次的分组讨论。他们的一些讨论结果记录在[会议纪要中](https://www.w3.org/Security/strong-authentication-and-identity-workshop/10Dec2018.html#item10)，其他数据则记录在在索引卡和“点投票”表中。[这些材料相互关联](https://drive.google.com/drive/folders/190gzWNE-ynAk3DWsU2nN3B4Q2VL3W6IF?ths=true)。
 
 
 
-*   DID charter out for advance-notice review:  [https://lists.w3.org/Archives/Public/public-new-work/2019Feb/0004.html](https://lists.w3.org/Archives/Public/public-new-work/2019Feb/0004.html) 
-*   Verifiable Claims Data Model v1.0 nearing Candidate Recommendation: [https://w3c.github.io/vc-data-model/](https://w3c.github.io/vc-data-model/) 
-*   WebAuthn API is a W3C Recommendation: [https://www.w3.org/TR/webauthn/](https://www.w3.org/TR/webauthn/). The WG is preparing v2 work.
+# 5. 发展趋势
 
-Upcoming F2Fs and Meetings
 
-*   The Verifiable Claims Working Group had a face-to-face meeting in Barcelona March 4-5, immediately following RWoT,
-*   The Web Authentication Working Group met face-to-face in San Francisco, California, March 7, to work on level 2.
+## 5.1. WebAuthn与遗留系统的集成
+
+大多政府和公司部署和使用的大型遗留验证系统保证高确信度。比如通用访问卡（CAC）和个人身份验证（PIV）卡系统。目前正在开展的工作是使用现有基础架构来创建“衍生凭证”, 用于较新的身份验证技术，比如 Web 身份验证（WebAuthentication ）规范提供的技术，以及通过 DIDs-Auth 提供的潜在机制。
+
+
+## 5.2. 分散标识符和可验证凭证
+
+参与研讨会的许多技术公司正在参与构建基于分散标识符和可验证凭证的解决方案，并将它们与大多公司和政府的更加传统的身份和凭证发布系统结合起来。在许多这样的项目中，W3C 对全球互操作性的关注和与供应商锁定的斗争被认为是政府和行业资金用于构建互操作生态系统的关键原因。许多概念验证侧重于分散标识符、凭证发行者、凭证持有者（数字钱包）和凭证验证者角色上的互操作性。虽然迄今为止的大部分工作都集中在数据模型上，但人们对可互操作协议的兴趣日益增加，这些协议将可互操作的数据格式从 DID 分类账转移到发行方到持有者再到验证者。
+
+
+## 5.3. 强化隐私保护技术
+
+强化隐私保护技术有着强大的发展趋势，即将标识符，凭证和身份验证器的主要控制权交给个人。此外，也确立了摒弃对标识符、凭证和身份验证器相关信息的集中控制与存储的期望。虽然这对于解决最近的各种数据泄露和围绕数据主权的问题是个好兆头，但社区似乎一致认为，仍需要做大量的工作来确保未来默认使用强化隐私保护技术。参与研讨会的许多人士指出，W3C社区以及更大的技术社区需要不断保持警戒，确保当前趋势持续下去。
+
+
+
+# 6. 社区后续计划
+
+社区成员已确定以下后续计划：
+
+
+*   下一次重启信任Web（RWoT）将于3月1日至3日在巴塞罗那举行。所有这些都将是活跃的主题，尤其是 DID 以及将“DID Auth”转换为其他现有协议这一大方向。
+
+*   下一次互联网身份研讨会将于4月30日至5月2日在加利福尼亚州山景城举行。预计这次研讨会将继续推进社区对话。[https://www.internetidentityworkshop.com/](https://www.internetidentityworkshop.com/) 
+
+*   W3C凭证社区组路线图： [https://w3c-ccg.github.io/roadmap/diagram.html](https://w3c-ccg.github.io/roadmap/diagram.html) 
+
+*   IETF非WG EAT列表（实体认证令牌）：[https://mailarchive.ietf.org/arch/browse/eat/](https://mailarchive.ietf.org/arch/browse/eat/) 
+
+*   IETF非WG RATS列表（远程ATtestatio程序）[https://mailarchive.ietf.org/arch/browse/rats/ ](https://mailarchive.ietf.org/arch/browse/rats/) 以及章程草案 [https://datatracker.ietf.org/doc/charter-ietf-rats/](https://datatracker.ietf.org/doc/charter-ietf-rats/) 
+
+
+# 7. W3C 后续计划
+
+W3C 目前正在开展以下后续计划：
+
+*   DID 包租接受提前通知审核：[https://lists.w3.org/Archives/Public/public-new-work/2019Feb/0004.html](https://lists.w3.org/Archives/Public/public-new-work/2019Feb/0004.html) 
+*   可验证声明数据模型v1.0即将成为候选推荐标准： [https://w3c.github.io/vc-data-model/](https://w3c.github.io/vc-data-model/) 
+*   WebAuthnAPI 是 W3C 的正式推荐标准：[https://www.w3.org/TR/webauthn/](https://www.w3.org/TR/webauthn/). 工作组正在进行第二版规范的准备工作。
+
+
+随之举行的会议
+
+*   紧随重启信任 Web 之后，可验证声明工作组于3月4日至5日在巴塞罗那举行了面对面会议。
+
+*   Web 认证工作组于3月7日在加利福尼亚州旧金山面对面地开展了关于开发 Web 认证规范第二级的工作。
