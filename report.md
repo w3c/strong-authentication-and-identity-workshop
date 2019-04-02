@@ -9,6 +9,8 @@ The W3C Strong Authentication and Identity Workshop gathered experts in the spac
   <p class="image-paragraph">
      <img src="assets/strong-auth.jpg" alt="Welcome! W3C Workshop on Strong Authentication and Identity">
     </p>
+    
+    Report also available [in Chinese](https://www.w3.org/Security/strong-authentication-and-identity-workshop/report.zh.html)
 # 2. Workshop Agenda
 
 [Agenda](https://www.w3.org/Security/strong-authentication-and-identity-workshop/agenda)
