@@ -61,7 +61,7 @@ W3C凭证社区组已经孵化了一份社区组报告草案，即分散标识�
 
 2. 续探索如何重新使用现有成熟的身份验证框架，如 OIDC 和 Web 认证（WebAuthentication），以及如何将这些协议的优势与 DID 的新特性结合起来。
 
-讲者演示文稿[Understanding DID-Auth](https://www.w3.org/Security/201812-Auth-ID/04_-_Day_1_-_Understanding_DID_Auth.pdf)
+讲者演示文稿：[Understanding DID-Auth](https://www.w3.org/Security/201812-Auth-ID/04_-_Day_1_-_Understanding_DID_Auth.pdf)
 
 
 ## 3.5. Web 认证、CTAP、EAT、FIDO 和身份验证器
@@ -167,7 +167,7 @@ Mathias Brossard 将认证描述为一个始于 EAT 和 RAT 的物联网安全�
 
 ## 3.13. 路线图：分散标识符和可验证凭证
 
-Christopher Allen 从可验证凭证（VC）、分散标识符（DID）、DID-Auth 以及未来工作的其他潜在技术中创建了分散身份堆栈的图片。他分享了凭证社区组的路线图[Credentials Community Group's roadmap](https://w3c-ccg.github.io/roadmap/) [diagram](https://w3c-ccg.github.io/roadmap/diagram.html)。
+Christopher Allen 从可验证凭证（VC）、分散标识符（DID）、DID-Auth 以及未来工作的其他潜在技术中创建了分散身份堆栈的图片。他分享了凭证社区组的路线图，即 [Credentials Community Group's roadmap](https://w3c-ccg.github.io/roadmap/)  [diagram](https://w3c-ccg.github.io/roadmap/diagram.html)。
 
 讲者演示文稿：[DID & VC Architecture roadmap](https://www.w3.org/Security/201812-Auth-ID/13_-_Day_2_-_5_Year_Roadmap__DIDs,_VCs,_and_Attestations.pdf)
 
@@ -218,7 +218,7 @@ Marie Lathière 描述了欧洲法规要求严格的客户身份验证，她建�
 
 *   下一次 Rebooting-the-Web-of-Trust（RWoT）将于3月1日至3日在巴塞罗那举行。所有以上这些都将成为活跃的讨论话题，尤其是 DID 以及将“DID Auth”转换为其他现有协议这一大方向。
 
-*   下一次互联网身份研讨会将于4月30日至5月2日在加利福尼亚州山景城举行。预计这次研讨会将继续推进社区对话。[https://www.internetidentityworkshop.com/](https://www.internetidentityworkshop.com/) 
+*   下一次互联网身份研讨会将于4月30日至5月2日在加利福尼亚州山景城举行。预计这次研讨会将继续推进社区对话 [https://www.internetidentityworkshop.com/](https://www.internetidentityworkshop.com/) 
 
 *   W3C 凭证社区组路线图： [https://w3c-ccg.github.io/roadmap/diagram.html](https://w3c-ccg.github.io/roadmap/diagram.html) 
 
